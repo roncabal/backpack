@@ -1,0 +1,1006 @@
+html, 
+body,
+#container,
+#content {
+	height:100%;
+}
+
+body {
+	background-repeat: no-repeat;
+	background: #F4F8FF;
+}
+
+body,
+#content,
+#container {
+	width:100%;
+}
+
+* {
+	outline:0;
+}
+
+a {
+	color:#2b5797;
+}
+
+a:hover {
+	color:#000000;
+}
+
+.tile {
+	float: left;
+}
+
+.tile-group {
+	float:none;
+}
+
+.placeholderPlace {
+	z-index: 5;
+	margin-top:-25px;
+	height:20px;
+}
+
+.placeholder {
+	left:10px;
+	color:#777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin:0px;
+	display: inline-block;
+}
+
+.select-disable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.bottomContent {
+	bottom:5px;
+	position:absolute;
+}
+
+table tbody tr td {
+	border:0px !important;
+	padding:0px;
+}
+
+.placeholder,
+.user-options,
+.option-divider,
+#spotlightTitle,
+#spotlightPlace,
+#pocketName,
+#optionTrigger{
+	position:relative;
+}
+
+#nametagHolder,
+#imageHolder {
+	position:absolute;
+}
+
+#fileHolder {
+	margin:10px 0px 0px 10px;
+}
+
+#titleHolder {
+	position:relative;
+	width:220px;
+	height:70px;
+	top:30px;
+	left:100px;
+}
+
+#headHolder {
+	width:100%;
+	height:110px;
+}
+
+#userHolder {
+	position:fixed;
+	top:40px;
+	left:755px;
+	width:410px;
+	height:50px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+#nametagHolder {
+	width:320px;
+	top:15px;
+	text-align: right;
+}
+
+#imageHolder {
+	left:335px;
+	width:50px;
+	height:50px;
+}
+
+#optionTrigger {
+	left:385px;
+	height:100%;
+	width:30px;
+}
+
+.option-title {
+	position: relative;
+	width:100%;
+	padding:2px;
+	padding-left: 10px;
+	top:5px;
+}
+
+#userOptionHolder {
+	top:85px;
+	width:200px;
+	height:330px;
+	left:970px;
+	position:fixed;
+	display: none;
+}
+
+#userOptionDrop {
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+	border: 1px solid #777777;
+}
+
+#userPockets,
+#userSettings,
+#logoutHolder,
+#userSpace {
+	position:relative;
+}
+
+#userPockets {
+	top:5px;
+	border-bottom: 1px solid #777777;
+	width:100%;
+	height:120px;
+}
+
+#userSettings {
+	border-bottom: 1px solid #777777;
+	top:10px;
+	width:100%;
+	height:55px;
+}
+
+#logoutHolder {
+	top:15px;
+	border-bottom: 1px solid #777777;
+	width:100%;
+	height:30px;
+}
+
+#userSpace {
+	top:20px;
+}
+
+.user-space {
+	width:100%;
+	padding:2px;
+	padding-left: 10px;
+	top:5px;
+	margin-bottom: 5px;
+}
+
+.user-options {
+	width:100%;
+	padding:2px;
+	padding-left: 20px;
+	top:0px;
+}
+
+.user-options:hover {
+	background: #2d89ef;
+}
+
+.option-divider {
+	margin:20px 0px 0px 0px;
+	height: 1px;
+}
+
+#progressHolder {
+	padding: 5px 10px 2px 10px;
+}
+
+#spaceProgress {
+	background: #CCCCCC;
+}
+
+.arrow-down {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #777777;
+}
+
+.arrow-left {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #777777;
+}
+
+.arrow-right {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #777777;
+}
+
+.center-div-h {
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.center-div-v {
+	top:0px;
+	bottom:0px;
+	margin-top:auto;
+	margin-bottom: auto;
+}
+
+.bp-modal-title,
+.bp-modal-close {
+	position:absolute;
+}
+
+
+.bp-modal-header,
+.bp-modal-content {
+	position:relative;
+}
+
+#modalBackground {
+	width:10000px;
+	height:10000px;
+	top:0px;
+	position:fixed;
+	margin-left:-5000px;
+	background: #FFFFFF;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index:10000;
+	display: none;
+}
+
+.bp-modal {
+	background: #FFFFFF;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	z-index: 11000;
+	border:1px solid #777777;
+	box-shadow: 0px 0px 30px #CCCCCC;
+	display: none;
+}
+
+.bp-modal-header {
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+}
+
+#fileUploadHolder {
+	width:800px;
+	height:600px;
+}
+
+.bp-modal-close {
+	top:5px;
+	right:15px;
+}
+
+.bp-modal-title {
+	position: absolute;
+	width:600px;
+	height:50px;
+	top:10px;
+	left:20px;
+}
+
+.ajax-message {
+	position:fixed;
+	padding: 5px;
+	top:50px;
+	left:370px;
+	z-index: 20000;
+	border:1px solid #777777;
+	display:none;
+}
+
+.loader-background {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+	z-index: 100;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index: 200;
+}
+
+.loading {
+	position:absolute;
+	margin:auto;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	width:32px;
+	height:32px;
+	z-index: 200;
+}
+
+
+#leftPanelHolder {
+	width:40px;
+	height:100%;
+	background: #FFFFFF;
+	border-right:1px solid #BBBBBB;
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index: 1000;
+}
+
+#userNotification {
+	position:absolute;
+	top:200px;
+	width:40px;
+	height:120px;
+}
+
+#userMenu {
+	position:absolute;
+	top:325px;
+	width:40px;
+	height:120px;
+}
+
+#separator {
+	position:absolute;
+	top:320px;
+	width:100%;
+	height:1px;
+	border-top: 1px dashed #FFFFFF;
+}
+
+.menu-helper {
+	position:absolute;
+	display:none;
+	left:40px;
+	top:8px;
+	padding:2.5px;
+}
+
+.menu-arrow {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:-20px;
+	bottom:0px;
+	margin:auto;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-right: 20px solid #2b5797;
+}
+
+.menu-title {
+	position:absolute;
+	left:20px;
+	top:0px;
+	padding:3px 5px 3px 5px;
+	background: #2b5797;
+}
+
+#messageHelper {
+	width:80px;
+}
+
+#memberHelper {
+	width:80px;
+}
+
+#activityHelper {
+	width:80px;
+}
+
+.notification{
+	width:40px;
+	height:40px;
+	position: relative;
+}
+
+.user-noti {
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:0px;
+	right:0px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	text-align: center;
+	display: none;
+}
+
+#rightPanelHolder {
+	position:fixed;
+	height:650px;
+	width:300px;
+	right:-9999px;
+	background: #FFFFFF;
+	border-left: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+	z-index:5000;
+}
+
+#searchHolder,
+#searchBoxHolder,
+#bagActivityHolder {
+	position: relative;
+}
+
+#searchHolder {
+	width:100%;
+	height:31px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#searchBox {
+	height:30px;
+	border:none;
+}
+
+#searchBoxHolder {
+	width:100%;
+	height:30px;
+}
+
+#bagActivityHolder {
+	width:100%;
+	height:250px;
+}
+
+#bagActivityHolder .viewport { width: 100%; height: 250px; position: absolute; overflow: hidden;}
+#bagActivityHolder .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:100%;}
+#bagActivityHolder .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#bagActivityHolder .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#bagActivityHolder .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0px; left: 0px; }
+#bagActivityHolder .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#bagActivityHolder .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#chatBoxHolder {
+	width:100%;
+	height:280px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#chatBoxHolder .viewport { width: 300px; height: 280px; overflow: hidden; position: absolute; }
+#chatBoxHolder .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:300px;}
+#chatBoxHolder .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#chatBoxHolder .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#chatBoxHolder .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#chatBoxHolder .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#chatBoxHolder .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#chatSearchHolder {
+	width:100%;
+	height:30px;
+	position:relative;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#chatBoxSearch {
+	border:none;
+}
+
+.rightpanel-title {
+	width:100%;
+	padding:5px;
+	height:30px;
+}
+
+#rightPanelToggler {
+	position:fixed;
+	width:31px;
+	height:31px;
+	background: #FFFFFF;
+	top:0px;
+	right:0px;
+	border-bottom: 1px solid #BBBBBB;
+	border-left: 1px solid #BBBBBB;
+	z-index: 5000;
+}
+
+.bag-activity {
+	float:right;
+	margin:2.5px 5px 2.5px 0px;
+	width:290px;
+	height:50px;
+}
+
+.activity-icon,
+.user-activity,
+.activity-time {
+	position:absolute;
+}
+
+.user-activity {
+	left:40px;
+	top:8px;
+}
+
+.activity-icon {
+	top:5px;
+	left:8px;
+}
+
+.activity-time {
+	bottom:3px;
+	right:10px;
+}
+
+.bag-mate {
+	margin:5px 0px 5px 5px;
+	width:290px;
+	height:50px;
+}
+
+.bag-mate-image,
+.bag-mate-name,
+.group,
+.user-online {
+	position:absolute;
+}
+
+.bag-mate-name {
+	left:55px;
+	top:8px;
+}
+
+.bag-mate-image {
+	top:5px;
+	left:8px;
+}
+
+.group {
+	bottom:3px;
+	left:55px;
+}
+
+.user-online {
+	width:10px;
+	height:10px;
+	right:15px;
+	top:20px;
+}
+
+/*
+*
+* Settings */
+
+#settingsHolder,
+#settingsTitle {
+	position:relative;
+}
+
+#settingsHolder {
+	width:800px;
+	height:30px;
+	top:0px;
+	left:100px;
+}
+
+#settingsTitle {
+	width:100%;
+	height:40px;
+}
+
+#accountSettingsTitleHolder {
+	position: relative;
+}
+
+#accountSettingsTitleHolder {
+	width:600px;
+	height:30px;
+	left:100px;
+}
+
+#accountSettingsHolder {
+	position:relative;
+	float:left;
+}
+
+#accountSettingsHolder {
+	width:800px;
+	height:470px;
+	left:100px;
+	top:10px;
+}
+
+.account-settings {
+	width:100%;
+	height:40px;
+}
+
+.account-settings-inside {
+	position:absolute;
+	width:780px;
+	height:25px;
+}
+
+.account-settings-button {
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+.settings-button {
+	height:25px;
+	min-height: 25px;
+}
+
+#changeNameHolder {
+	width:400px;
+	height:180px;
+}
+
+#changeNameContent {
+	width:100%;
+	height:130px;
+}
+
+#firstNameHolder,
+#lastNameHolder,
+#buttonChangeHolder {
+	position: absolute;
+}
+
+#firstNameHolder {
+	width:300px;
+	height:30px;
+	top:10px;
+}
+
+#lastNameHolder {
+	width:300px;
+	height:30px;
+	top:50px;
+}
+
+#buttonChangeHolder {
+	width:90px;
+	height:30px;
+	bottom:10px;
+}
+
+#changeLockcodeHolder {
+	width:400px;
+	height:180px;
+}
+
+#changeLockcodeContent {
+	width:100%;
+	height:130px;
+}
+
+#oldLockcodeHolder,
+#newLockcodeHolder,
+#buttonChangeLockcodeHolder {
+	position: absolute;
+}
+
+#oldLockcodeHolder {
+	width:300px;
+	height:30px;
+	top:10px;
+}
+
+#newLockcodeHolder {
+	width:300px;
+	height:30px;
+	top:50px;
+}
+
+#buttonChangeLockcodeHolder {
+	width:90px;
+	height:30px;
+	bottom:10px;
+}
+
+#backpackSettingsHolder {
+	position: absolute;
+}
+
+#backpackSettingsHolder {
+	width:480px;
+	height:470px;
+	left:100px;
+}
+
+#backpackSettingsHolder2 {
+	position: absolute;
+
+}
+
+#backpackSettingsHolder2 {
+	width:480px;
+	height:470px;
+	left:660px;
+}
+
+.tile-title,
+.tile-button,
+.tile-details,
+#organizerStatusPlace,
+#overwriteStatusPlace,
+#ownerImagePlace {
+	position: absolute;
+}
+
+#bottomLockcodeHolder {
+	top:5px;
+}
+
+.tile-title {
+	top:15px;
+	left:15px;
+}
+
+.tile-button {
+	bottom:5px;
+	right:20px;
+}
+
+.tile-details {
+	top:55px;
+	left:15px;
+}
+
+#organizerStatusPlace {
+	width:80px;
+	height:30px;
+}
+
+#overwriteStatusPlace {
+	width:80px;
+	height:30px;
+}
+
+#ownerImagePlace {
+	width:100%;
+	height:100%;
+}
+
+#ownerImage {
+	width:100%;
+	height:100%;
+}
+
+#changeBottomLockcodeHolder {
+	width:400px;
+	height:180px;
+}
+
+#changeBottomLockcodeContent {
+	width:100%;
+	height:130px;
+}
+
+#oldBottomLockcodeHolder,
+#newBottomLockcodeHolder,
+#buttonChangeBottomLockcodeHolder {
+	position: absolute;
+}
+
+#oldBottomLockcodeHolder {
+	width:300px;
+	height:30px;
+	top:10px;
+}
+
+#newBottomLockcodeHolder {
+	width:300px;
+	height:30px;
+	top:50px;
+}
+
+#buttonChangeBottomLockcodeHolder {
+	width:90px;
+	height:30px;
+	bottom:10px;
+	right:50px;
+}
+
+#changeOrganizerHolder {
+	width:400px;
+	height:100px;
+}
+
+#changeOrganizerContent {
+	position: relative;
+}
+
+#changeOrganizerContent {
+	width:100%;
+	height:50px;
+}
+
+#organizerTitle,
+#organizerButtonHolder {
+	position:absolute;
+}
+
+#organizerTitle {
+	top:10px;
+	left:20px;
+}
+
+#organizerButtonHolder {
+	top:5px;
+	right:20px;
+	height:30px;
+	width:90px;
+}
+
+#changeOverwriteHolder {
+	width:400px;
+	height:100px;
+}
+
+#changeOverwriteContent {
+	position: relative;
+}
+
+#changeOverwriteContent {
+	width:100%;
+	height:50px;
+}
+
+#overwriteTitle,
+#overwriteButtonHolder {
+	position:absolute;
+}
+
+#overwriteTitle {
+	top:10px;
+	left:20px;
+}
+
+#overwriteButtonHolder {
+	top:5px;
+	right:20px;
+	height:30px;
+	width:90px;
+}
+
+#changeAvatarHolder {
+	width:410px;
+	height:100px;
+}
+
+#changeAvatarContent {
+	position: relative;
+	width:100%;
+	height:50px;
+}
+
+#getImageHolder,
+#uploadImageButton {
+	position:absolute;
+}
+
+#getImageHolder {
+	height:30px;
+	width:250px;
+	left:20px;
+	top:5px;
+	margin: 0px;
+}
+
+#uploadImageButton {
+	top:1px;
+	right:10px;
+	width:110px;
+	height:30px;
+}
+
+#verificationMessageHolder {
+	width:800px;
+	height:470px;
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+
+#verificationMessageHolder p {
+	word-wrap:break-word;
+	line-height: 25px;
+	font-size: 25px;
+}
+
+#verificationMessageHolder a {
+	word-wrap:break-word;
+	font-size: 25px;
+}
+
+#newVerificationHolder {
+	width:600px;
+	height:470px;
+	position:absolute;
+	top:120px;
+	left:100px;
+}
+
+#newVerificationLabel {
+	position:relative;
+	top:20px;
+}
+
+#newVerificationEmailTextBox,
+#newVerificationButton {
+	position:relative;
+	top:30px;
+}
+
+#newVerificationTitle a {
+	font-size: 28px;
+}

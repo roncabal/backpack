@@ -1,0 +1,61 @@
+#tableHolder{
+	position:relative;
+	width:1200px;
+	height:630px;
+}
+
+#myPocketWrapper{
+	position:relative;
+	width:255px;
+	height:630px;
+}
+
+#myPocket{
+	position:relative;
+	background:url(../backpack_images/my_backpack/pocket.png);
+	top:70px;
+	width:255px;
+	height:475px;
+}
+
+#uploadButton{
+	position:relative;
+	background:url(../backpack_images/my_backpack/pocket_buttons/upload.png);
+	width:210px;
+	height:38px;
+	padding-top:8px;
+	background-repeat:no-repeat;
+}
+
+#shareButton{
+	position:relative;
+	background:url(../backpack_images/my_backpack/pocket_buttons/share.png);
+	width:210px;
+	height:38px;
+	padding-top:8px;
+	background-repeat:no-repeat;
+}
+
+#addFolderButton{
+	position:relative;
+	background:url(../backpack_images/my_backpack/pocket_buttons/add_folder.png);
+	width:210px;
+	height:38px;
+	padding-top:8px;
+	background-repeat:no-repeat;
+}
+
+#addMemberButton{
+	position:relative;
+	background:url(../backpack_images/my_backpack/pocket_buttons/add_member.png);
+	width:210px;
+	height:38px;
+	padding-top:8px;
+	background-repeat:no-repeat;
+}
+
+#myPocketButtons{
+	position:relative;
+	width:255px;
+	top:180px;
+}

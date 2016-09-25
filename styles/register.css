@@ -1,0 +1,168 @@
+#registerFormWrapper{
+	position:relative;
+	width:650px;
+	height:400px;
+}
+
+#registerPlace{
+	background:url(../backpack_images/register_tag.png);
+	background-repeat:no-repeat;
+	position:relative;
+	width:650px;
+	height:400px;
+}
+
+#registerForm{
+	width:650px;
+	height:400px;
+	position:relative;
+}
+
+#nameTag{
+	position:relative;
+	top:69px;
+	left:59px;
+	height:25px;
+	width:250px;
+	border:none;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+#firstName{
+	position:relative;
+	top:115px;
+	left:59px;
+	height:25px;
+	width:250px;
+	border:none;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+#lastName{
+	position:relative;
+	top:115px;
+	left:95px;
+	height:25px;
+	width:250px;
+	border:none;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+#emailAdd{
+	position:relative;
+	top:177px;
+	left:59px;
+	height:25px;
+	width:250px;
+	border:none;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+#lockCode{
+	position:relative;
+	top:215px;
+	left:59px;
+	height:25px;
+	width:250px;
+	border:none;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+#acceptTerms{
+	position:relative;
+	top:245px;
+	left:165px;
+}
+
+#labelAccept{
+	position:relative;
+	top:243px;
+	left:170px;
+}
+
+#labelAccept:hover{
+	color:#330099;
+}
+
+#cancel{
+	position:relative;
+	background:url(../backpack_images/cancel.png);
+	border:0px;
+	top:10px;
+	left:0px;
+	width:130px;
+	height:50px;
+}
+
+#cancel:hover{
+	background:url(../backpack_images/cancel_hover.png);
+}
+
+#register{
+	position:relative;
+	background:url(../backpack_images/register.png);
+	left:0px;
+	width:130px;
+	height:60px;
+	border:none;
+}
+
+#register:hover{
+	background:url(../backpack_images/register_hover.png);
+}
+
+#inputHolder{
+	position:relative;
+	padding-top:10px;
+	width:190px;
+	height:140px;
+	top:75px;
+	left:380px;
+}
+
+#termsAndConditions{
+	text-decoration:none;
+	color:#000000;
+}
+
+#termsAndConditions:hover{
+	text-decoration:underline;
+	color:#330099;
+}
+
+#errorTitle{
+	position:relative;
+	top:20px;
+	width:650px;
+	height:50px;
+}
+
+#errorTextTitle{
+	color:#FFFFFF;
+	font-family:Calibri;
+}
+
+#errorHolder{
+	position:relative;
+	width:650px;
+	height:200px;
+}
+
+#errorLog{
+	position:relative;
+	background:url(../backpack_images/invalid_register.png);
+	width:650px;
+	height:200px;
+}
+
+.validationTexts{
+	margin:0px; 
+	font-size:16px; 
+	font-family:Calibri;
+	color:#FFFFFF;
+}

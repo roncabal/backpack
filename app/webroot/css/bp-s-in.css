@@ -1,0 +1,3104 @@
+html, 
+body,
+#container,
+#content {
+	height:100%;
+}
+
+body {
+	background-repeat: no-repeat;
+	background: #FFFFFF;
+}
+
+body,
+#content,
+#container {
+	width:100%;
+}
+
+.center-div-h {
+	margin-left: auto;
+	margin-right:auto;
+	left:0px;
+	right:0px;
+}
+
+.center-div-v {
+	margin-top: auto;
+	margin-bottom:auto;
+	top:0px;
+	bottom:0px;
+}
+
+* {
+	outline:0;
+}
+
+a {
+	color:#2b5797;
+}
+
+a:hover {
+	color:#000000;
+}
+
+a:hover, a:active, a:focus {
+    outline:0;
+}
+
+.tile {
+	float: none;
+}
+
+.tile-group {
+	float:none;
+}
+
+.placeholderPlace {
+	z-index: 5;
+	margin-top:-25px;
+	height:20px;
+}
+
+.placeholder {
+	left:10px;
+	color:#777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin:0px;
+	display: inline-block;
+	font-family: Segoe UI;
+}
+
+.select-disable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.bottomContent {
+	bottom:5px;
+	position:absolute;
+}
+
+table tbody tr td {
+	border:0px !important;
+	padding:0px;
+}
+
+/*
+*	Pockets
+*/
+
+.file-place {
+	position:relative;
+	padding-top:10px;
+	padding-left: 10px;
+	width:330px;
+	height:490px;
+	float:left;
+}
+
+.placeholder,
+#pocketHolder,
+.user-options,
+.option-divider,
+#spotlightTitle,
+#spotlightPlace,
+#pocketName,
+#uploadHolder,
+.icon-holder,
+.menu-title,
+#addFolderHolder,
+#recoverHolder,
+#optionTrigger,
+#pocketIcon {
+	position:relative;
+}
+
+#nametagHolder,
+#leftPanel,
+#pocket,
+#imageHolder {
+	position:absolute;
+}
+
+#fileHolder {
+	margin:10px 0px 0px 10px;
+}
+
+#titleHolder {
+	position:relative;
+	width:220px;
+	height:70px;
+	top:30px;
+	left:100px;
+}
+
+#headHolder {
+	width:100%;
+	height:110px;
+}
+
+#userHolder {
+	position:absolute;
+	top:40px;
+	left:755px;
+	width:410px;
+	height:50px;
+}
+
+#myNotificationHolder {
+	width:50px;
+	height:120px;
+	position:absolute;
+	top:90px;
+	left:1090px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	z-index: 500;
+	display: none;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+#nametagHolder {
+	width:320px;
+	top:15px;
+	text-align: right;
+}
+
+#imageHolder {
+	left:335px;
+	width:50px;
+	height:50px;
+}
+
+#optionTrigger {
+	left:385px;
+	height:100%;
+	width:30px;
+}
+
+.option-title {
+	position: relative;
+	width:100%;
+	padding:2px;
+	padding-left: 10px;
+	top:5px;
+}
+
+#userOptionHolder {
+	top:90px;
+	width:200px;
+	height:330px;
+	left:970px;
+	position:absolute;
+	display: none;
+}
+
+#userOptionDrop {
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+}
+
+#userPockets,
+#userSettings,
+#logoutHolder,
+#userSpace {
+	position:relative;
+}
+
+#userPockets {
+	top:5px;
+	border-bottom: 1px solid #777777;
+	width:100%;
+	height:120px;
+}
+
+#userSettings {
+	border-bottom: 1px solid #777777;
+	top:10px;
+	width:100%;
+	height:55px;
+}
+
+#logoutHolder {
+	top:15px;
+	border-bottom: 1px solid #777777;
+	width:100%;
+	height:30px;
+}
+
+#userSpace {
+	top:20px;
+}
+
+.user-space {
+	width:100%;
+	padding:2px;
+	padding-left: 10px;
+	top:5px;
+	margin-bottom: 5px;
+}
+
+.user-options {
+	width:100%;
+	padding:2px;
+	padding-left: 20px;
+	top:0px;
+}
+
+.user-options:hover {
+	background: #2d89ef;
+}
+
+.option-divider {
+	margin:20px 0px 0px 0px;
+	height: 1px;
+}
+
+#progressHolder {
+	padding: 5px 10px 2px 10px;
+}
+
+#spaceProgress {
+	background: #CCCCCC;
+}
+
+.arrow-down {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #777777;
+}
+
+.arrow-left {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #777777;
+}
+
+.arrow-right {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #777777;
+}
+
+#pocketHolder {
+	min-width:1250px;
+	height:540px;
+}
+
+
+#spotlightPlace .viewport { width: 270px; height: 100%; overflow: hidden; position: relative; }
+#spotlightPlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#spotlightPlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 15px; }
+#spotlightPlace .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#spotlightPlace .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#spotlightPlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#spotlightPlace .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+
+#leftPanel {
+	width:270px;
+	height:540px;
+	left:100px;
+	border: 1px solid #BBBBBB;
+	border-right:0px;
+	border-left:0px;
+	background: #EEEEEE;
+}
+
+#spotlightHolder {
+	width:270px;
+	height:100%;	
+}
+
+#spotlightTitleHolder {
+	width:100%;
+	height:50px;
+}
+
+#spotlightTitle {
+	top:8px;
+	left:15px;
+}
+
+#spotlightPlace {
+	width:270px;
+	height:458px;
+}
+
+.top-used {
+	margin:5px 0px 5px 0px;
+	left:5px;
+	height:60px;
+	width:245px;
+}
+
+#pocket {
+	min-width:800px;
+	height:540px;
+	border: 1px solid #BBBBBB;
+	left:370px;
+}
+
+#menuHolder {
+	width:100%;
+	height:50px;
+	background: #CCCCCC;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#itemsPlaceHolder {
+	width:100%;
+	height:488px;
+}
+
+#pocketNameHolder {
+	width:370px;
+	height:50px;
+}
+
+#pocketNameHolder:hover {
+	background: #DDDDDD !important;
+}
+
+#pocketName {
+	margin-top:-45px;
+	left:50px;
+	width:300px;
+}
+
+#currentFolder {
+	position:relative;
+	left:0px;
+	width:300px;
+}
+
+#menuBar {
+	position:absolute;
+	width:430px;
+	height:50px;
+	right:0px;
+	margin-top: -50px;
+}
+
+#uploadHolder {
+	width:130px;
+}
+
+.pocket-menu {
+	width:160px;
+	height:50px;
+	position:relative;
+}
+
+.pocket-menu:hover {
+	background: #DDDDDD !important;
+}
+
+.icon-holder {
+	top:8px;
+	left:5px;
+	width:40px;
+	height:40px;
+}
+
+#upload,
+#addfolder,
+#recover {
+	position:relative;
+}
+
+#upload {
+	margin-top:-27px;
+	left:45px;
+	width:80px;
+}
+
+#addfolder {
+	margin-top:-27px;
+	left:45px;
+	width:110px;
+}
+
+#recover {
+	margin-top:-27px;
+	left:45px;
+	width:80px;
+}
+
+#addFolderHolder {
+	margin-top: -50px;
+	left:130px;
+}
+
+#recoverHolder {
+	margin-top:-50px;
+	left:290px;
+	width:140px;
+}
+
+.spotlight-actions {
+	position:absolute;
+	bottom:0px;
+	left:15px;
+}
+
+.delete-file:hover {
+	text-decoration: underline;
+}
+
+.regen-file:hover {
+	text-decoration: underline;
+}
+
+.file-name {
+	position:absolute;
+	top:8px;
+}
+
+.file-type {
+	position:absolute;
+	bottom:0px;
+	right:10px;
+}
+
+#changePocketHolder {
+	width:220px;
+	height:170px;
+	background: #FFFFFF;
+	border: 1px solid #777777;
+	z-index: 5000;
+	top:160px;
+	left:370px;
+	position:absolute;
+	display: none;
+}
+
+.change-pocket {
+	width:100%;
+	padding:5px 0px 5px 10px;
+	cursor: pointer;
+}
+
+.change-pocket:hover {
+	background: #AAAAAA;
+}
+
+#emptyMain {
+	position:absolute;
+	width:300px;
+	height:30px;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+}
+
+#rightPanelHolder {
+	position:fixed;
+	height:650px;
+	width:300px;
+	right:-9999px;
+	background: #FFFFFF;
+	border-left: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+	z-index:5000;
+}
+
+#searchHolder,
+#searchBoxHolder,
+#bagActivityHolder {
+	position: relative;
+}
+
+#searchHolder {
+	width:100%;
+	height:31px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#searchBox {
+	height:30px;
+	border:none;
+	border-left: 1px solid #BBBBBB;
+}
+
+#searchBoxHolder {
+	width:100%;
+	height:30px;
+}
+
+#bagActivityHolder {
+	width:100%;
+	height:250px;
+}
+
+#bagActivityHolder .viewport { width: 100%; height: 250px; position: absolute; overflow: hidden;}
+#bagActivityHolder .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:100%;}
+#bagActivityHolder .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#bagActivityHolder .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#bagActivityHolder .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0px; left: 0px; }
+#bagActivityHolder .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#bagActivityHolder .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#chatBoxHolder {
+	width:100%;
+	height:310px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#chatBoxHolder .viewport { width: 300px; height: 280px; overflow: hidden; position: absolute; }
+#chatBoxHolder .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:300px;}
+#chatBoxHolder .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#chatBoxHolder .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#chatBoxHolder .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#chatBoxHolder .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#chatBoxHolder .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#chatSearchHolder {
+	width:100%;
+	height:30px;
+	position:relative;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#chatBoxSearch {
+	border:none;
+}
+
+.rightpanel-title {
+	width:100%;
+	padding:5px;
+	height:30px;
+}
+
+#rightPanelToggler {
+	position:fixed;
+	width:31px;
+	height:31px;
+	background: #FFFFFF;
+	top:0px;
+	right:0px;
+	border-bottom: 1px solid #BBBBBB;
+	border-left: 1px solid #BBBBBB;
+	z-index: 5000;
+}
+
+.item {
+	height:85px;
+	width:310px;
+}
+
+.item-name,
+.item-type,
+.item-date,
+.item-size {
+	position:absolute;
+}
+
+.item-name {
+	top:13px;
+	left:20px;
+}
+
+.item-type {
+	bottom:3px;
+	left:20px;
+}
+
+.item-date {
+	bottom:3px;
+	right:10px;
+}
+
+.item-size {
+	top:35px;
+	left:20px;
+}
+
+#uploadTitle,
+#uploadIcon,
+.bp-modal-title,
+.bp-modal-close {
+	position:absolute;
+}
+
+
+.bp-modal-header,
+.bp-modal-content {
+	position:relative;
+}
+
+#modalBackground {
+	width:10000px;
+	height:10000px;
+	top:0px;
+	position:fixed;
+	margin-left:-5000px;
+	background: #FFFFFF;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index:10000;
+	display: none;
+}
+
+#blackModalBackground {
+	width:10000px;
+	height:10000px;
+	top:0px;
+	position:fixed;
+	margin-left:-5000px;
+	background: #000000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index:10000;
+	display: none;
+}
+
+.bp-modal {
+	background: #FFFFFF;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	z-index: 11000;
+	border:1px solid #777777;
+	box-shadow: 0px 0px 30px #CCCCCC;
+	display: none;
+}
+
+.bp-modal-header {
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+}
+
+#fileUploadHolder {
+	width:800px;
+	height:600px;
+}
+
+.bp-modal-close {
+	top:5px;
+	right:15px;
+}
+
+.bp-modal-title {
+	position: absolute;
+	width:600px;
+	height:50px;
+	top:10px;
+	left:20px;
+	display: inline-block;
+}
+
+#selectedFiles .viewport { width: 800px; height: 465px; overflow: hidden; position: absolute; }
+#selectedFiles .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:800px;}
+#selectedFiles .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#selectedFiles .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#selectedFiles .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#selectedFiles .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#selectedFiles .disable { display: none; }
+
+#uploadIcon {
+	margin-top:-5px;
+	left:-10px;
+}
+
+#uploadTitle {
+	left:40px;
+}
+
+.bp-modal-content {
+	width:100%;
+}
+
+#fileUploadContent {
+	height:550px;
+}
+
+#selectedFiles {
+	width:100%;
+	height:465px;
+	border-bottom: 1px solid #777777;
+}
+
+#uploadMenu {
+	position:absolute;
+	bottom:0px;
+	right:10px;
+	width:320px;
+	height:85px;
+}
+
+#pickfiles {
+	position:relative;
+	top:5px;
+	left:5px;
+	height:75px;
+}
+
+#uploadfiles {
+	position:relative;
+	margin-top:-80px;
+	left:160px;
+	height:75px;
+	width:160px;
+}
+
+.upload-button-title {
+	position: absolute;
+	top:25px;
+	left:25px;
+}
+
+.selected-files {
+	position:relative;
+	width:770px;
+	height:50px;
+	margin:0px;
+	margin-top:4px;
+	margin-bottom: 4px;
+	left:4px;
+}
+
+.upload-name {
+	position:absolute;
+	width:350px;
+	height:20px;
+	top:15px;
+	left:10px;
+}
+
+.upload-process {
+	position:absolute;
+	width:300px;
+	height:20px;
+	top:15px;
+	left:400px;
+}
+
+.remove-file {
+	width:10px;
+	height:13px;
+	position:absolute;
+	top:15px;
+	right:10px;
+}
+
+.upload-progress {
+	position:absolute;
+	top:8px;
+}
+
+.bag-activity {
+	float:right;
+	margin:2.5px 5px 2.5px 0px;
+	width:290px;
+	height:50px;
+}
+
+#dragdropHolder {
+	width:500px;
+	height:250px;
+	border:2px dashed #777777;
+	position:absolute;
+	top:100px;
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #FFFFFF;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-khtml-opacity: 0.5;
+	-moz-opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+#dragdrop {
+	width:300px;
+	height:30px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+}
+
+.activity-icon,
+.user-activity,
+.activity-time {
+	position:absolute;
+}
+
+.user-activity {
+	left:10px;
+	top:8px;
+}
+
+.activity-icon {
+	top:5px;
+	left:8px;
+}
+
+.activity-time {
+	bottom:3px;
+	right:10px;
+}
+
+.bag-mate {
+	margin:5px 0px 5px 5px;
+	width:290px;
+	height:50px;
+}
+
+.bag-mate-image,
+.bag-mate-name,
+.group,
+.user-online {
+	position:absolute;
+}
+
+.bag-mate-name {
+	left:55px;
+	top:8px;
+}
+
+.bag-mate-image {
+	top:5px;
+	left:8px;
+}
+
+.group {
+	bottom:3px;
+	left:55px;
+}
+
+.user-online {
+	width:10px;
+	height:10px;
+	right:15px;
+	top:20px;
+}
+
+#fileOptions {
+	position:fixed;
+	width:100%;
+	height:40px;
+	bottom:0px;
+	left:-9999px;
+	display: none;
+	z-index: 5000;
+}
+
+.file-option {
+	height:100%;
+	float:left;
+	position:relative;
+	left:40px;
+}
+
+.file-option:hover {
+	background: #777777;
+}
+
+.file-image-action,
+.file-action {
+	position:absolute;
+}
+
+.file-action {
+	top:12px;
+	left:35px;
+}
+
+.file-image-action {
+	width:30px;
+	height:30px;
+	top:5px;
+	left:5px;
+}
+
+#openFile {
+	width:90px;
+}
+
+#downloadFile {
+	width:120px;
+}
+
+#shareFile {
+	width:90px;
+}
+
+#renameFile {
+	width:100px;
+}
+
+#moveFile {
+	width:90px;
+}
+
+#copyFile {
+	width:90px;
+}
+
+#deleteFile {
+	width:90px;
+}
+
+#createFolderIcon,
+#createFolderTitle,
+#folderNameHolder,
+#createFolderButton,
+#charsNotAllowed,
+#createFolderHolder {
+	position:absolute;
+}
+
+#createFolderHolder {
+	width:350px;
+	height:180px;
+}
+
+#createFolderIcon {
+	margin-top:-10px;
+	left:-20px;
+}
+
+#createFolderTitle {
+	left:30px;
+}
+
+#createFolderContent {
+	height:130px;
+}
+
+#folderNameHolder {
+	width:300px;
+	height:30px;
+	background: #000000;
+	margin: auto;
+	top:-70px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+#createFolderButton {
+	bottom:20px;
+	margin-left: auto;
+	margin-right: auto;
+	left:0px;
+	right:0px;
+	width:120px;
+	height:30px;
+	background: #000000;
+}
+
+#createFolder {
+	width:120px;
+}
+
+#charsNotAllowed {
+	top:55px;
+	left:30px;
+}
+
+.ajax-message {
+	position:fixed;
+	padding: 5px;
+	top:50px;
+	left:370px;
+	z-index: 20000;
+	border:1px solid #777777;
+	display:none;
+}
+
+.loader-background {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+	z-index: 100;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index: 200;
+}
+
+.loading {
+	position:absolute;
+	margin:auto;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	width:32px;
+	height:32px;
+	z-index: 200;
+}
+
+#deleteFilesHolder {
+	width:600px;
+	height:150px;
+}
+
+#deleteFilesContent,
+#deleteFilesMessage,
+#deleteFilesButtons {
+	position:absolute;
+}
+
+#deleteFilesContent {
+	width:100%;
+	height:100px;
+}
+
+#deleteFilesMessage {
+	width:430px;
+	height:20px;
+	top:10px;
+	left:20px;
+}
+
+#deleteFilesButtons {
+	width:210px;
+	height:30px;
+	bottom:25px;
+	right:0px;
+}
+
+#renameItemTitle,
+#renameNameHolder,
+#renameItemButton,
+#charsNotAllowed {
+	position:absolute;
+}
+
+#renameItemHolder {
+	width:350px;
+	height:180px;
+}
+
+#renameItemContent {
+	height:130px;
+}
+
+#renameNameHolder {
+	width:300px;
+	height:30px;
+	background: #000000;
+	margin: auto;
+	top:-80px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+#renameItemButton {
+	bottom:20px;
+	margin-left: auto;
+	margin-right: auto;
+	left:0px;
+	right:0px;
+	width:90px;
+	height:30px;
+	background: #000000;
+}
+
+#charsNotAllowed {
+	top:45px;
+	left:30px;
+}
+
+#bodyContext {
+	z-index:20000;
+	display:none;
+	position:absolute;
+	width:160px;
+	height:auto;
+	background:#ffffff;
+}
+
+#fileContext {
+	z-index:20000;
+	display:none;
+	position:absolute;
+	width:160px;
+	height:auto;
+	background:#ffffff;
+}
+
+#contextMenu {
+	margin:0px;
+}
+
+#showFolderHolder {
+	width:500px;
+	height:280px;
+}
+
+#showFolderContent,
+#folderContainerHolder,
+#showOpenFoldersTrigger,
+#showCurrentFolder,
+#showFolderButton,
+#showOpenFolders,
+#showFolderInformation {
+	position:absolute;
+}
+
+#showFolderContent {
+	width:100%;
+	height:230px;
+}
+
+#folderContainerHolder {
+	width:450px;
+	height:150px;
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+	top:20px;
+	background: #FFFFFF;
+	border: 1px solid #777777;
+}
+
+#mainFolder,
+#folderContainer,
+.folder-list,
+.show-open-folder {
+	position:relative;
+}
+
+#mainFolder {
+	width:100%;
+	height:25px;
+	border-bottom: 1px solid #777777;
+}
+
+#showCurrentFolder {
+	left:25px;
+}
+
+#showOpenFoldersTrigger {
+	width:20px;
+	height:24px;
+	border-right:1px solid #777777;
+}
+
+#folderContainer {
+	width:100%;
+	height:124px;
+	overflow: auto;
+}
+
+.folder-list {
+	width:100%;
+	padding: 3px;
+	padding-left: 20px;
+}
+
+.folder-list:hover {
+	background: #2d89ef;
+}
+
+#showFolderButton {
+	width:90px;
+	height:32px;
+	background: #777777;
+	right:25px;
+	bottom:15px;
+}
+
+#showOpenFolders {
+	width:250px;
+	height:120px;
+	left:24px;
+	top:95px;
+	border: 1px solid #777777;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px #999999;
+	overflow: auto;
+	display: none;
+}
+
+.show-open-folder {
+	height:20px;
+	width:100%;
+	padding: 3px;
+	padding-left: 10px;
+}
+
+.show-open-folder:hover {
+	background: #2d89ef;
+}
+
+#showFolderInformation {
+	bottom:20px;
+	left:30px;
+}
+
+.showOpenFoldersTitle {
+	padding : 3px;
+	border-bottom: 1px solid #777777;
+}
+
+#hoverHelper {
+	position:absolute;
+	padding: 3px;
+	display: none;
+	border: 1px solid #777777;
+	z-index: 200;
+	background: #FFFFFF;
+}
+
+#leftPanelHolder {
+	width:40px;
+	height:100%;
+	background: #FFFFFF;
+	border-right:1px solid #BBBBBB;
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index: 1000;
+}
+
+#userNotification {
+	position:absolute;
+	top:200px;
+	width:40px;
+	height:120px;
+}
+
+#userMenu {
+	position:absolute;
+	top:325px;
+	width:40px;
+	height:120px;
+}
+
+#separator {
+	position:absolute;
+	top:320px;
+	width:100%;
+	height:1px;
+	border-top: 1px dashed #FFFFFF;
+}
+
+.menu-helper {
+	position:absolute;
+	display:none;
+	left:40px;
+	top:8px;
+	padding:2.5px;
+}
+
+.menu-arrow {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:-20px;
+	bottom:0px;
+	margin:auto;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-right: 20px solid #2b5797;
+}
+
+.menu-title {
+	position:absolute;
+	left:20px;
+	top:0px;
+	padding:3px 5px 3px 5px;
+	background: #2b5797;
+}
+
+#uploadHelper {
+	width:80px;
+}
+
+#addFolderHelper {
+	width:130px;
+}
+
+#recoverHelper {
+	width:100px;
+}
+
+#messageHelper {
+	width:80px;
+}
+
+#memberHelper {
+	width:80px;
+}
+
+#activityHelper {
+	width:80px;
+}
+
+#createGroupHelper {
+	width:150px;
+}
+
+#joinHelper {
+	width:120px;
+}
+
+#groupRequestsHelper {
+	width:150px;
+}
+
+#enterBottomLockcodeHolder {
+	width:600px;
+	height:150px;
+	display: inline-block;
+}
+
+#enterBottomLockcodeHolder,
+#enterBottomLockcodeIcon,
+#enterBottomLockcodeTitle,
+#bottomLockcodeQuestion,
+#bottomLockcodeForm,
+#bottomLockcodeHolder,
+#bottomLockcodeSubmit,
+#bottomLockcodeCancel {
+	position:absolute;
+}
+
+#enterBottomLockcodeIcon {
+	margin-top:-10px;
+	left:-20px;
+}
+
+#enterBottomLockcodeTitle {
+	left:30px;
+}
+
+#enterBottomLockcodeContent {
+	width:100%;
+	height:100px;
+}
+
+#bottomLockcodeQuestion {
+	top:10px;
+	left:20px;
+}
+
+#bottomLockcodeForm	{
+	top:30px;
+	width:100%;
+	height:70px;
+}
+
+#bottomLockcodeHolder {
+	width:250px;
+	height:50px;
+	top:15px;
+	left:20px;
+}
+
+#bottomLockcodeSubmit {
+	right:140px;
+	top:15px;
+}
+
+#bottomLockcodeCancel {
+	right:40px;
+	top:15px;
+}
+
+#leftSideHolder,
+#leftSideTitleHolder,
+#leftSideTitle,
+#bagmatesPlace,
+#searchBagmateHolder,
+.bagmate-image,
+.bagmate-name,
+.online-stat,
+.bagmate-messages-noti {
+	position:absolute;
+}
+
+#leftSideHolder {
+	left:100px;
+	width:270px;
+	height:100%;
+	border: 1px solid #BBBBBB;
+	border-right: 0px;
+	background: #EEEEEE
+}
+
+#leftSideTitleHolder {
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#leftSideTitle {
+	top:10px;
+	left:10px;
+}
+
+#bagmatesPlace {
+	top:80px;
+	height:460px;
+	width:100%;
+}
+
+#searchBagmates {
+	border:0px;
+	border-bottom:1px solid #BBBBBB;
+}
+
+#bagmatesPlace .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#bagmatesPlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#bagmatesPlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 15px; }
+#bagmatesPlace .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#bagmatesPlace .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#bagmatesPlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#bagmatesPlace .disable { display: none; }
+
+.user-bagmate {
+	position:relative;
+	width:100%;
+	height:80px;
+	border-bottom:1px solid #BBBBBB;
+}
+
+.user-bagmate:hover {
+	background: #DDDDDD;
+	cursor: pointer;
+}
+
+#searchBagmateHolder {
+	width:100%;
+	height:30px;
+	top:50px;
+}
+
+.bagmate-image {
+	top:10px;
+	left:10px;
+	width:60px;
+	height:60px;
+	background: #000000;
+}
+
+.bagmate-name {
+	top:18px;
+	left:80px;
+	display: inline-block;
+}
+
+.bagmate-messages-noti {
+	top:50px;
+	left:80px;
+}
+
+.online-stat {
+	margin:auto;
+	top:0px;
+	bottom:0px;
+	right:20px;
+	width:10px;
+	height:10px;
+	background: #FFFFFF;
+}
+
+#searchGroupHolder,
+#groupPlace,
+.group-name,
+.messages-holder,
+.messages-notification-holder,
+.new-share-holder,
+.new-share-notification-holder {
+	position:absolute;
+}
+
+#searchGroups {
+	border:0px;
+	border-bottom:1px solid #BBBBBB;
+}
+
+#searchGroupHolder {
+	width:100%;
+	height:30px;
+	top:50px;
+}
+
+#groupPlace {
+	top:80px;
+	height:460px;
+	width:100%;
+}
+
+#groupPlace .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#groupPlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#groupPlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 15px; }
+#groupPlace .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#groupPlace .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#groupPlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#groupPlace .disable { display: none; }
+
+.user-groups {
+	position:relative;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #BBBBBB;
+}
+
+.user-groups:hover {
+	background: #DDDDDD;
+	cursor:pointer;
+}
+
+.group-name {
+	display: inline-block;
+	top:10px;
+	left:20px;
+}
+
+.messages-holder {
+	display: inline-block;
+	top:8px;
+	right:70px;
+}
+
+.messages-notification-holder {
+	display: inline-block;
+	width:20px;
+	height:20px;
+	margin-top: -30px;
+	left:13px;
+}
+
+.messages-notification {
+	width:20px;
+	height:20px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.new-share-holder {
+	display: inline-block;
+	top:8px;
+	right:30px;
+}
+
+.new-share-notification-holder {
+	display: inline-block;
+	width:20px;
+	height:20px;
+	margin-top: -30px;
+	left:13px;
+}
+
+.new-share-notification {
+	width:20px;
+	height:20px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+#groupOwnerPlace,
+#groupChatHolderPlace,
+#userGroupMessageHolder,
+.group-settings,
+#groupSettingsTitle {
+	position:relative;
+}
+
+#groupInformationAndChat,
+#groupOwner,
+#groupMessageHolder,
+#sendGroupMessageHolder,
+.send-time,
+#groupSettingsTrigger,
+#groupSettings {
+	position:absolute;
+}
+
+#groupSettingsTitle {
+	width:100%;
+	padding: 2.5px 0px 2.5px 10px;
+}
+
+#groupSettingsTrigger {
+	top:5px;
+	right:3px;
+}
+
+#groupSettingsTrigger:hover {
+	background: #603cba;
+}
+
+#groupSettings {
+	width:200px;
+	height:100px;
+	background: #FFFFFF;
+	top:185px;
+	left:470px;
+	border: 1px solid #603cba;
+	z-index: 100;
+	display: none;
+}
+
+.group-settings {
+	width:100%;
+	padding:2.5px 0px 2.5px 15px;
+}
+
+.group-settings:hover {
+	cursor: pointer;
+	background: #2d89ef;
+}
+
+.send-time {
+	top:5px;
+	right:15px;
+}
+
+#groupInformationAndChat {
+	width:300px;
+	height:488px;
+	border-right: 1px solid #BBBBBB;
+	background: #EEEEEE;
+	display: none;
+}
+
+#groupOwnerPlace {
+	width:100%;
+	height:30px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#groupOwner {
+	top:5px;
+	left:10px;
+}
+
+#groupChatHolderPlace {
+	width:100%;
+	height:400px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#groupChatHolder {
+	width:100%;
+}
+
+#groupChatHolderPlace .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#groupChatHolderPlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#groupChatHolderPlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 8px; }
+#groupChatHolderPlace .track { background: #AAAAAA; height: 100%; width:8px; position: relative; padding: 0 1px; z-index: 5;}
+#groupChatHolderPlace .thumb { background: #777777; height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#groupChatHolderPlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 8px; }
+#groupChatHolderPlace .disable { display: none; }
+
+#userGroupMessageHolder {
+	width:100%;
+	height:58px;
+}
+
+#groupMessageHolder,
+#groupMessage {
+	width:210px;
+	height:100%;
+	border: 0px;
+	border-right:1px solid #BBBBBB;
+}
+
+#sendGroupMessageHolder,
+#sendGroupMessage {
+	right:0px;
+	width:90px;
+	height:100%;
+}
+
+.group-replies {
+	position:relative;
+}
+
+.group-replies {
+	width:100%;
+	height: auto;
+	padding:5px 15px 0px 5px;
+	border-bottom: 1px solid #BBBBBB;
+	overflow: hidden;
+}
+
+.group-replies p {
+	font-size:12px;
+	word-wrap:break-word;
+}
+
+#sharedFilePlace {
+	position:relative;
+	min-width:500px;
+	height:488px;
+	left:300px;
+	display: inline-block;
+}
+
+.shared-files-holder {
+	float: left;
+	width:330px;
+	height:488px;
+}
+
+.shared-file {
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 85px;
+}
+
+.shared-file-name,
+.shared-file-size,
+.shared-file-type,
+.shared-file-date {
+	position:absolute;
+}
+
+.shared-file-name {
+	top:13px;
+	left:20px;
+}
+
+.shared-file-size {
+	top:35px;
+	left:20px;
+}
+
+.shared-file-type {
+	bottom:3px;
+	left:20px;
+}
+
+.shared-file-date {
+	bottom:3px;
+	right:15px;
+}
+
+#createGroupHolder {
+	margin:auto;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:500px;
+	height:100px;
+	display: none;
+}
+
+#createGroupHolder,
+#createGroupPlace,
+#submitGroupButton,
+#cancelAddGroupButton,
+#noGroupHolder {
+	position:absolute;
+}
+
+#createGroupContent {
+	position: relative;
+}
+
+#createGroupContent {
+	width:100%;
+	height:50px;
+}
+
+#createGroupPlace {
+	top:5px;
+	left:20px;
+}
+
+#submitGroupButton {
+	top:5px;
+	right:110px;
+}
+
+#cancelAddGroupButton {
+	top:5px;
+	right:10px;
+}
+
+#noGroupHolder {
+	margin:0px;
+	left:80px;
+	right:0px;
+	top:190px;
+	bottom:0px;
+	width:150px;
+	height:100px;
+}
+
+#noGroupSelected {
+	position:absolute;
+	margin:auto;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:230px;
+	height:40px;
+	text-align: center;
+}
+
+#joinGroupHolder,
+#ownerNametagHolder,
+#groupZiplockHolder,
+#joinButtonHolder {
+	position:absolute;
+}
+
+#joinGroupHolder {
+	width:400px;
+	height:230px;
+	left:0px;
+	right:0px;
+	display: none;
+}
+
+#joinGroupContent {
+	position:relative;
+}
+
+#joinGroupContent {
+	width:100%;
+	height:180px;
+}
+
+#ownerNametagHolder {
+	top:30px;
+	margin-left:auto;
+	margin-right: auto;
+	left:0px;
+	right:0px;
+	width:300px;
+	height:30px;
+}
+
+#groupZiplockHolder {
+	top:70px;
+	margin-left:auto;
+	margin-right: auto;
+	left:0px;
+	right:0px;
+	width:300px;
+	height:30px;
+}
+
+#joinButtonHolder {
+	bottom:20px;
+	right:40px;
+}
+
+#groupInfoHolder,
+#groupInfoOwner,
+#groupInfoName,
+#groupInfoZiplock,
+#closeInfoHolder {
+	position:absolute;
+}
+
+#groupInfoHolder {
+	width:350px;
+	height:210px;
+	left:0px;
+	right:0px;
+	display: none;
+}
+
+#groupInfoContent {
+	position:relative;
+}
+
+#groupInfoContent {
+	width:100%;
+	height:160px;
+}
+
+#groupInfoName {
+	top:10px;
+	left:30px;
+}
+
+#groupInfoOwner {
+	top:40px;
+	left:30px;
+}
+
+#groupInfoZiplock {
+	top:70px;
+	left:30px;
+}
+
+#closeInfoHolder {
+	bottom:10px;
+	left:30px;
+}
+
+#groupShare,
+#shareLink,
+.type-title {
+	position:absolute;
+}
+
+#shareTypeHolder {
+	width:400px;
+	height:260px;
+}
+
+#shareTypeContent {
+	position:relative;
+}
+
+#shareTypeContent {
+	width:100%;
+	height:210px;
+}
+
+#groupShare {
+	height:75px;
+	top:20px;
+}
+
+#shareLink {
+	height:75px;
+	top:100px;
+}
+
+.type-title {
+	width:100%;
+	height:25px;
+	text-align: center;
+}
+
+#groupShareHolder {
+	width:600px;
+	height:300px;
+}
+
+#groupShareContent,
+.group-share {
+	position:relative;
+}
+
+#groupShareContent {
+	width:100%;
+	height:250px;
+}
+
+#groupSharePlace {
+	width:100%;
+	height:250px;
+	border-top:1px solid #BBBBBB; 
+	border-bottom:1px solid #BBBBBB; 
+}
+
+#groupSharePlace .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#groupSharePlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#groupSharePlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 8px; }
+#groupSharePlace .track { background: #AAAAAA; height: 100%; width:8px; position: relative; padding: 0 1px; z-index: 5;}
+#groupSharePlace .thumb { background: #777777; height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#groupSharePlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 8px; }
+#groupSharePlace .disable { display: none; }
+
+.group-share {
+	width:100%;
+	padding:10px 10px 10px 30px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.group-share-button-holder {
+	position:absolute;
+	width:90px;
+	height:30px;
+	right:20px;
+}
+
+.user-noti {
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:0px;
+	right:0px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	text-align: center;
+	display: none;
+}
+
+.notification{
+	width:40px;
+	height:40px;
+	position: relative;
+}
+
+#groupRequestsHolder,
+#groupRequestsPlace,
+.accept-request,
+.deny-request {
+	position:absolute;
+}
+
+#groupRequestsHolder {
+	width:900px;
+	height:400px;
+}
+
+#groupRequestsContent,
+.group-requests,
+.group-request {
+	position:relative;
+}
+
+#groupRequestsContent {
+	width:100%;
+	height:350px;
+}
+
+#groupRequestsPlace {
+	width:100%;
+	height:300px;
+	border-top: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#groupRequestsPlace .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#groupRequestsPlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#groupRequestsPlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 8px; }
+#groupRequestsPlace .track { background: #AAAAAA; height: 100%; width:8px; position: relative; padding: 0 1px; z-index: 5;}
+#groupRequestsPlace .thumb { background: #777777; height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#groupRequestsPlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 8px; }
+#groupRequestsPlace .disable { display: none; }
+
+.group-requests {
+	width:100%;
+	border-bottom: 1px solid #BBBBBB;
+	padding:10px;
+}
+
+.group-request h5 {
+	word-wrap:break-word;
+}
+
+.group-request {
+	width:600px;
+}
+
+.accept-request {
+	width:90px;
+	height:30px;
+	right:120px;
+}
+
+.deny-request {
+	width:90px;
+	height:30px;
+	right:20px;
+}
+
+#noSelectedBagmate {
+	position:absolute;
+	width:100%;
+	height:30px;
+	text-align: center;
+}
+
+#chatBagmateHolder,
+#bagmateInfoHolder,
+#userInfoHolder,
+#chatHolder,
+#userChatHolder {
+	position: absolute;
+}
+
+.user-chat,
+.bagmate-chat {
+	position:relative;
+}
+
+#chatBagmateHolder {
+	width:100%;
+	height:489px;
+	display:none;
+}
+
+#bagmateInfoHolder {
+	top:10px;
+	left:20px;
+	width:130px;
+	padding-bottom: 10px;
+}
+
+#bagmateInfoPlace {
+	position:relative;
+	width:100%;
+}
+
+#userInfoHolder {
+	top:10px;
+	right:20px;
+	width:130px;
+	padding-bottom: 10px;
+}
+
+#userInfoPlace {
+	position:relative;
+	width:100%;
+}
+
+#chatHolder {
+	width:450px;
+	height:400px;
+	border: 1px solid #BBBBBB;
+	border-top: 0px;
+	top:0px;
+}
+
+#chatHolder .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#chatHolder .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#chatHolder .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 8px; }
+#chatHolder .track { background: #AAAAAA; height: 100%; width:8px; position: relative; padding: 0 1px; z-index: 5;}
+#chatHolder .thumb { background: #777777; height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#chatHolder .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 8px; }
+#chatHolder .disable { display: none; }
+
+#userChatHolder {
+	width:450px;
+	height:90px;
+	bottom:0px;
+}
+
+#userChat {
+	width:450px;
+	height:90px;
+}
+
+#bagmateName {
+	font-size: 20px;
+	word-wrap:break-word;
+}
+
+#userName {
+	font-size: 20px;
+	word-wrap:break-word;
+}
+
+.user-chat {
+	width:400px;
+	padding:10px;
+	margin:10px 0px 10px 0px;
+	left:5px;
+}
+
+.user-message p {
+	word-wrap:break-word;
+}
+
+.user-message-arrow-right {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	right:-15px;
+	top:10px;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 15px solid #2b5797;
+}
+
+.bagmate-chat {
+	width:400px;
+	padding:10px;
+	margin:10px 0px 10px 0px;
+	left:35px;
+}
+
+.bagmate-message {
+	position: relative;
+	width:100%;
+}
+
+.bagmate-message p {
+	word-wrap:break-word;
+}
+
+.bagmate-message-arrow-left {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	left:-15px;
+	top:10px;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 15px solid #9f00a7;
+}
+
+#groupMemberHolder {
+	width:300px;
+	height:500px;
+	display: none;
+}
+
+#groupMemberContent,
+#searchMemberHolder,
+#groupMemberPlace {
+	position:relative;
+}
+
+#groupMemberContent {
+	width:100%;
+	height:450px;
+}
+
+#searchMemberHolder {
+	width:100%;
+	height:30px;
+}
+
+#searchMember {
+	width:100%;
+	border:0px;
+	border-top: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#groupMemberPlace {
+	width:100%;
+	height:380px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#groupMemberPlace .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#groupMemberPlace .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#groupMemberPlace .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 8px; }
+#groupMemberPlace .track { background: #AAAAAA; height: 100%; width:8px; position: relative; padding: 0 1px; z-index: 5;}
+#groupMemberPlace .thumb { background: #777777; height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#groupMemberPlace .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 8px; }
+#groupMemberPlace .disable { display: none; }
+
+.member-place {
+	position: relative;
+	width:100%;
+	height:80px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.member-image,
+.member-name-holder,
+.remove-member,
+#addMemberHolder {
+	position:absolute;
+}
+
+#addMemberHolder {
+	bottom:2px;
+	width:100%;
+	height:40px;
+	background: #BBBBBB;
+}
+
+#addMember {
+	width:100%;
+	height:40px;
+}
+
+.member-image {
+	width:60px;
+	height:60px;
+	background: #000000;
+	left:10px;
+	top:10px;
+}
+
+.member-name-holder {
+	width:180px;
+	height:20px;
+	top:13px;
+	left:80px;
+}
+
+.member-name {
+	font-family: Segoe UI;
+	font-size: 18px;
+	word-wrap:break-word;
+}
+
+.remove-member {
+	bottom:13px;
+	left:80px;
+	height:30px;
+	width:90px;
+}
+
+#groupRemoveHolder {
+	width:600px;
+	height:120px;
+}
+
+#groupRemoveContent {
+	width:100%;
+	height:70px;
+}
+
+#groupRemoveQuestion,
+#acceptRemoveHolder,
+#cancelRemoveHolder {
+	position: absolute;
+}
+
+#groupRemoveQuestion {
+	top:0px;
+	left:20px;
+}
+
+#acceptRemoveHolder {
+	bottom:5px;
+	right:120px;
+}
+
+#cancelRemoveHolder {
+	bottom:5px;
+	right:20px;
+}
+
+#groupAddHolder {
+	width:400px;
+	height:100px;
+}
+
+#groupAdd,
+#buttonAddHolder {
+	position:absolute;
+}
+
+#groupAdd {
+	width:250px;
+	height:30px;
+	left:20px;
+}
+
+#buttonAddHolder {
+	width:90px;
+	height:30px;
+	right:20px;
+}
+
+#ownerPanel {
+	width:100%;
+	height:40px;
+	position: fixed;
+	bottom:0px;
+	z-index: 1000;
+	padding-left: 40px;
+	display: none;
+}
+
+.owner-panel {
+	position:relative;
+	float: left;
+	height:40px;
+	cursor: pointer;
+}
+
+.owner-panel:hover {
+	background: #777777;
+}
+
+.owner-panel-title {
+	height:15px;
+	left:40px;
+	position: absolute;
+}
+
+#unshareFile {
+	width:100px;
+}
+
+#downloadSharedFiles {
+	width:110px;
+}
+
+#leaveGroupHolder {
+	width:600px;
+	height:100px;
+}
+
+#leaveGroupContent {
+	width:100%;
+	height:50px;
+}
+
+#leaveGroupCheck,
+#buttonLeaveGroup,
+#buttonCancelLeave {
+	position: absolute;
+}
+
+#leaveGroupCheck {
+	top:0px;
+	left:20px;
+}
+
+#buttonLeaveGroup {
+	bottom:5px;
+	right:120px;
+}
+
+#buttonCancelLeave {
+	bottom:5px;
+	right:20px;
+}
+
+#unshareFilesHolder {
+	width:600px;
+	height:100px;
+}
+
+#unshareFilesContent {
+	width:100%;
+	height:50px;
+}
+
+#unshareFilesCheck,
+#buttonUnshareFiles,
+#buttonCancelUnshare {
+	position: absolute;
+}
+
+#unshareFilesCheck {
+	top:0px;
+	left:20px;
+}
+
+#buttonUnshareFiles {
+	bottom:5px;
+	right:120px;
+}
+
+#buttonCancelUnshare {
+	bottom:5px;
+	right:20px;
+}
+
+#showImageHolder {
+	width:900px;
+	height:600px;
+	border: 1px solid #000000 !important;
+	box-shadow: 0px 0px 30px #000000 !important;
+}
+
+#showImageContent {
+	width:100%;
+	height:548px;
+	background: #1d1d1d;
+}
+
+#imagePlace {
+	position: relative;
+	width:100%;
+	height:548px;
+}
+
+#image,
+#imageMenuHolder,
+#imageNameHolder,
+.image-menu-holder {
+	position: absolute;
+}
+
+#image {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+#imageMenuHolder {
+	width:100%;
+	height:50px;
+	bottom:0px;
+	left:0px;
+	background: #000000;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+#imageNameHolder {
+	top:15px;
+	left:10px;
+}
+
+.image-menu-holder {
+	top:15px;
+}
+
+.image-menu:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#imageDownload {
+	right:20px;
+}
+
+#nextImage {
+	right:110px;
+}
+
+#previousImage {
+	right:180px;
+}
+
+#imageCountHolder {
+	right:330px;
+}
+
+#shareLinkHolder {
+	width:600px;
+	height:150px;
+}
+
+#shareLinkContent {
+	width:100%;
+	height:100px;
+	position:relative;
+}
+
+#shareUrlLabel,
+#shareUrlPlace,
+#claimFileLabel,
+#claimFilePlace {
+	position:absolute;
+}
+
+#shareUrlLabel {
+	top:13px;
+	left:50px;
+	display: inline-block;
+}
+
+#shareUrlPlace {
+	width:400px;
+	top:10px;
+	right:50px;
+}
+
+#claimFileLabel {
+	top:50px;
+	left:50px;
+	display: inline-block;
+}
+
+#claimFilePlace {
+	width:400px;
+	top:50px;
+	right:50px;
+}
+
+#backpackOrganizerHolder {
+	height:400px;
+	width: 500px;
+	box-shadow: 0px 0px 30px #888888;
+}
+
+#backpackOrganizerContent {
+	height:350px;
+	width:100%;
+}
+
+#backpackOrganizerContent .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#backpackOrganizerContent .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;  width:100%;}
+#backpackOrganizerContent .scrollbar{ background: #AAAAAA; position: relative; background-position: 0 0; float: right; width: 8px; }
+#backpackOrganizerContent .track { background: #AAAAAA; height: 100%; width:8px; position: relative; padding: 0 1px; z-index: 5;}
+#backpackOrganizerContent .thumb { background: #777777; height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#backpackOrganizerContent .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 8px; }
+#backpackOrganizerContent .disable { display: none; }
+
+.classification {
+	position:relative;
+	width:498px;
+}
+
+.class-head,
+.class-folder-holder,
+.class-files,
+.organize-file {
+	position: relative;
+}
+
+.organize-accept,
+.organize-deny,
+.remove-organize-file,
+.organize-file-name {
+	position:absolute;
+}
+
+.class-folder-holder {
+	width:320px;
+	height:30px;
+}
+
+.class-head {
+	top:0px;
+	width:100%;
+	height:30px;
+}
+
+.organize-folder {
+	width:320px;
+	height:30px;
+}
+
+.organize-accept {
+	top:0px;
+	width:90px;
+	height:30px;
+	left:320px;
+}
+
+.organize-accept-button {
+	min-height: 30px !important;
+	height: 30px !important;
+}
+
+.organize-deny {
+	top:0px;
+	width:90px;
+	height:30px;
+	left:410px;
+}
+
+.organize-deny-button {
+	min-height: 30px !important;
+	height: 30px !important;
+}
+
+.class-files {
+	width: 100%;
+	background: #DDDDDD;
+}
+
+.organize-file {
+	width:100%;
+	height:25px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.remove-organize-file {
+	width:20px;
+	height:25px;
+	left:0px;
+	text-align: center;
+}
+
+.remove-organize-file:hover {
+	cursor: pointer;
+}
+
+.organize-file-name {
+	top:2px;
+	left:30px;
+}
+
+#suggestionTitleHolder {
+	width:100px;
+	height:20px;
+}
+
+#suggestionTitle {
+	position: absolute;
+	top:0px;
+	left:20px;
+}
+
+.org-folder-names {
+	display: none;
+}
+
+#tutorialImage {
+	position:absolute;
+	width:156px;
+	height:130px;
+}
+
+#tutorialHolder {
+	position:fixed;
+	width:500px;
+	height:300px;
+	z-index: 500;
+	left:400px;
+	top:200px;
+}
+
+#tutorialPlace {
+	position:absolute;
+	top:0px;
+	left:156px;
+	height:100%;
+	width:300px;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	overflow: auto;
+
+}
+
+#tutorialArrow {
+	position:absolute;
+}
+
+#botlabel {
+	position: absolute;
+	height: 32px;
+	width: 300px;
+	left: 156px;
+	top: 300px;
+}
+
+#tutorlabelbot {
+	position: absolute;
+	height: 32px;
+	width: 120px;
+	left: 90px;
+	background: #2b5798;
+	text-align: center;
+	color: white;
+}
+
+#buttonPrevious {
+	position: absolute;
+	
+
+}
+
+#buttonNext {
+	position: absolute;
+	left: 210px;
+
+}
+
+
+
+#tutorialFinish {
+
+	position:absolute;
+
+	
+	background: #334ba3;
+	top: 362px;
+	left: 870px;
+	text-align: center;
+	padding: 10px;
+
+
+}
+
+
+#subMenuHolder {
+
+	position: absolute;
+	background: #BBBBBB;
+	width: 370px;
+	height: 200px;
+	z-index: 400;
+	top: 160px;
+	left: 370px;
+	display: none;
+
+}
+
+#subMenuHolder2 {
+
+	position: absolute;
+	background: #BBBBBB;
+	width: 370px;
+	height: 200px;
+	z-index: 400;
+	top: 160px;
+	left: 100px;
+	display: none;
+
+}
+
+
+#subMain {
+	position: relative;
+	width: 370px;
+	height: 50px;
+}
+
+#subMain:hover {
+	position: relative;
+	width: 370px;
+	height: 50px;
+	background: #dddddd !important;
+}
+
+
+#subTop {
+	position: relative;
+	width: 370px;
+	height: 50px;
+}
+
+#subTop:hover {
+	position: relative;
+	width: 370px;
+	height: 50px;
+	background: #dddddd !important;
+}
+
+#subSide {
+	position: relative;
+	width: 370px;
+	height: 50px;
+}
+
+#subSide:hover {
+	position: relative;
+	width: 370px;
+	height: 50px;
+	background: #dddddd !important;
+}
+
+
+#subExtra {
+	position: relative;
+	width: 370px;
+	height: 50px;
+}
+
+#subExtra:hover {
+	position: relative;
+	width: 370px;
+	height: 50px;
+	background: #dddddd !important;
+}
+
+
+#subBottom {
+	position: relative;
+	width: 370px;
+	height: 50px;
+}
+
+#subBottom:hover {
+	position: relative;
+	width: 370px;
+	height: 50px;
+	background: #dddddd !important;
+}
+
+.sub-menu-image {
+	position: absolute;
+	height: 55px;
+	width: 55px;
+}
+
+
+
+
+#subDesc {
+	position: absolute;
+	top: 10px;
+	left: 55px;
+
+}
+
+#activityPanel {
+	position: absolute;
+	overflow: auto;
+	min-width:600px;
+	height:540px;
+	top: 0px;
+	border: 1px solid #BBBBBB;
+	left:930px;
+
+}
+
+#actHeader {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#topSpot {
+	position: absolute;
+	height: 489px;
+	bottom: 0px;
+	width: 400px;
+
+}
+
+#decaySpot {
+	height: 489px;
+	position: absolute;
+	bottom: 0px;
+	border-left: 1px solid #BBBBBB;
+	left: 400px;
+	width: 400px;
+	
+}
+
+#topSpotLabel {
+	position: absolute;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+
+}
+
+#decaySpotLabel {
+	position: absolute;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+
+}
+
+#topcontent {
+	position: absolute;
+	top: 0px;
+	overflow: auto;
+	width: 400px;
+	height: 440px;
+}
+
+#topcontent .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#topcontent .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:800px;}
+#topcontent .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#topcontent .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#topcontent .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#topcontent .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#topcontent .disable { display: none; }
+
+.top-file {
+	width:100%;
+	height:60px;
+	border-bottom: 1px solid #BBBBBB;
+	position: relative;
+}
+
+.top-file-name {
+	position:absolute;
+	left:20px;
+	top:8px;
+}
+
+.top-file-desc {
+	position: absolute;
+	bottom:8px;
+	left:20px;
+}
+
+#decaycontent {
+	position: absolute;
+	top: 0px;
+	overflow: auto;
+	width: 398px;
+	height: 440px;
+}
+
+#decaycontent .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#decaycontent .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:800px;}
+#decaycontent .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#decaycontent .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#decaycontent .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#decaycontent .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#decaycontent .disable { display: none; }
+
+#actPanel {
+	width:100%;
+	height:488px;
+	position: relative;
+}
+
+#actPanel .viewport { width: 100%; height: 100%; overflow: hidden; position: absolute; }
+#actPanel .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width:800px;}
+#actPanel .scrollbar{ background: #AAAAAA; position: absolute; background-position: 0 0; float: right; width: 15px; right:0px;}
+#actPanel .track { background: #AAAAAA; height: 100%; width:15px; position: relative; padding: 0 1px; z-index: 5;}
+#actPanel .thumb { background: #777777; height: 20px; width: 15px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#actPanel .thumb .end { background: #777777; overflow: hidden; height: 5px; width: 15px; }
+#actPanel .disable { display: none; }
+
+#topSpace {
+	position:absolute;
+	top:0px;
+	width:50px;
+	height:540px;
+	left:1530px;
+}

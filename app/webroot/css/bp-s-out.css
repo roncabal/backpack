@@ -1,0 +1,477 @@
+html, body {
+	height:100%;
+}
+
+body {
+	background-repeat: no-repeat;
+	background: #EEEEEE;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.close {
+	position:absolute;
+	width:10px;
+	height:20px;
+	top:0px;
+	right:5px;
+	margin:0px;
+	z-index: 1;
+}
+
+.close:hover {
+	cursor:pointer;
+}
+
+a {
+	color:#99CCFF;
+}
+
+a:hover {
+	color:#000000;
+}
+
+#container {
+	height:100%;
+	overflow-x:auto;
+}
+
+.tile {
+	float: none;
+}
+
+.tile-group {
+	float:none;
+}
+
+.placeholderPlace {
+	z-index: 5;
+	margin-top:-25px;
+	height:20px;
+}
+
+.placeholder {
+	left:10px;
+	color:#777777;
+}
+
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6 {
+	margin:0px;
+}
+
+.bp-modal-title,
+.bp-modal-close {
+	position:absolute;
+}
+
+
+.bp-modal-header,
+.bp-modal-content {
+	position:relative;
+}
+
+#modalBackground {
+	width:10000px;
+	height:10000px;
+	top:0px;
+	position:fixed;
+	margin-left:-5000px;
+	background: #FFFFFF;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	z-index:10000;
+	display: none;
+}
+
+.bp-modal {
+	background: #FFFFFF;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	z-index: 11000;
+	border:1px solid #777777;
+	box-shadow: 0px 0px 30px #CCCCCC;
+	display: none;
+}
+
+.bp-modal-header {
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+}
+
+.bp-modal-close {
+	top:5px;
+	right:15px;
+}
+
+.bp-modal-title {
+	position: absolute;
+	width:600px;
+	height:50px;
+	top:10px;
+	left:20px;
+}
+
+.bp-modal-content {
+	width:100%;
+}
+
+
+#titleHolder,
+#loginDropdown,
+#bpCarousel,
+#whatBackpackHolder,
+#whatBackpackTitle,
+#claimFileHolder,
+#signupHolder,
+#signupTitle,
+#imagePanel,
+#forgotHolder,
+#backpackTileHolder,
+#contactHolder,
+#loginHolder,
+#loginLabel,
+#claimTitle,
+#supportHolder,
+#loginForm,
+#openBagHolder,
+#creditsHolder,
+#javaOff,
+.placeholder,
+#firstGroup,
+#secondGroup,
+#thirdGroup,
+#loginPlace,
+#androidDownload {
+	position:relative;
+}
+
+#thirdGroup {
+	width:470px;
+	height:470px;
+	margin-top:-470px;
+	left:1390px;
+}
+
+#firstGroup {
+	width:470px;
+	height:470px;
+	margin-top:-180px;
+	left:130px;
+}
+
+#secondGroup {
+	width:470px;
+	height:470px;
+	margin-top:-470px;
+	left:770px;
+}
+
+
+#titleHolder {
+	width:200px;
+	height:100px;
+	top:50px;
+	left:130px;
+}
+
+#loginDropdown {
+	width:100px;
+	height:40px;
+	margin-top:-30px;
+	left:995px;
+}
+
+#loginLabel {
+	top:10px;
+	left:10px;
+}
+
+.mouse-pointer {
+	cursor: pointer;
+}
+
+#bpCarousel {
+	width:470px !important;
+	height:310px;
+}
+
+#androidDownload {
+	margin-top:-10px;
+}
+
+#signupHolder {
+	width:310px;
+	height:150px;
+}
+
+#signupTitle {
+	top:5px;
+}
+
+
+#whatBackpackHolder {
+	width:150px;
+	height:310px;
+	margin-top:-150px;
+	left:320px;
+}
+
+#whatBackpack {
+	height:310px;
+}
+
+#whatBackpackTitle {
+	top:5px;
+}
+
+#knowMore {
+	top:50px;
+}
+
+#claimFileHolder {
+	width:150px;
+	height:150px;
+	margin-top:-150px;
+}
+
+#forgotHolder {
+	width:150px;
+	height:150px;
+	margin-top:-150px;
+	left:160px;
+}
+
+
+#imagePanel {
+	width:470px;
+	height:150px;
+	top:10px;
+}
+
+#bpCarousel {
+	width:310px;
+	height:310px;
+}
+
+#backpackTileHolder {
+	width:150px;
+	height:150px;
+}
+
+#contactHolder {
+	width:150px;
+	height:150px;
+	left:160px;
+	margin-top:-150px;
+}
+
+#claimTitle {
+	top:5px;
+}
+
+#supportHolder {
+	width:310px;
+	height:150px;
+	top:10px;
+}
+
+#creditsHolder {
+	width:310px;
+	height:150px;
+	top:20px;
+}
+
+#loginHolder {
+	width:350px;
+	height:210px;
+	display:none;
+	z-index: 1;
+}
+
+#nametagPlaceholder {
+	margin-top: -10px;
+}
+
+#claimContent {
+	top:82px;
+}
+
+.bottomContent {
+	bottom:5px;
+	position:absolute;
+}
+
+#loginForm {
+	width:250px;
+	height:200px;
+	top:35px;
+}
+
+#loginPlace {
+	width:350px;
+	height:210px;
+	margin-top:-10px;
+	left:745px;
+}
+
+#openBagHolder {
+	top:20px;
+	width:250px;
+}
+
+#openBag {
+	width:250px;
+}
+
+#oContext {
+	z-index:10;
+	display:none;
+	position:fixed;
+	width:50px;
+	height:auto;
+	background:#ffffff;
+}
+
+#contextMenu {
+	margin:0px;
+}
+
+#javaOff {
+	width:700px;
+	height:40px;
+	top:0px;
+}
+
+#javaOff,
+#loginForm {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#regSuccess {
+	position:fixed;
+	top:0px;
+	width:310px;
+	left:500px;
+	height:40px;
+}
+
+#loginFailed {
+	position:fixed;
+	top:0px;
+	width:310px;
+	left:500px;
+	height:40px;
+}
+
+/*
+*
+*	Registration
+*
+*/
+
+#regTitleHolder,
+#registrationHolder,
+.validationHolder,
+#loginHere,
+#regFirstGroup {
+	position:relative;
+}
+
+#regTitleHolder {
+	min-width:650px;
+	top:50px;
+	left:130px;
+	display: inline-block;
+}
+
+#registrationHolder {
+	width:800px;
+	top:80px;
+	height:400px;
+	left:130px;
+	padding:30px;
+}
+
+#agreeHolder {
+	height:50px;
+}
+
+.reg-element {
+	width:300px;
+	padding-bottom: 5px;
+}
+
+.validationHolder {
+	margin-top:-30px;
+	width:400px;
+	left:320px;
+}
+
+.regValidation {
+	color:#FFFFFF;
+}
+
+#getBackpack {
+	width:300px;
+}
+
+#loginHere {
+	margin-top:-35px;
+	left:350px;
+}
+
+#regFirstGroup {
+	width:470px;
+	height:470px;
+	margin-top:-330px;
+	left:1080px;
+}
+
+#claimModalHolder {
+	width:400px;
+	height:100px;
+}
+
+#claimModalContent {
+	width:100%;
+	height:50px;
+}
+
+#claimCodeHolder,
+#claimCodeButton {
+	position:absolute;
+}
+
+#claimCodeHolder {
+	width:250px;
+	top:0px;
+	left:20px;
+}
+
+#claimCodeButton {
+	top:0px;
+	width:90px;
+	height:30px;
+	right:20px;
+}
+
+.regValidation {
+	margin: 8px;
+}

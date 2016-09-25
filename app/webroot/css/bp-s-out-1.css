@@ -1,0 +1,1126 @@
+html, 
+body,
+#container,
+#content {
+	height:100%;
+}
+
+body {
+	background-repeat: no-repeat;
+	background: #FFFFFF;
+}
+
+body,
+#content,
+#container {
+	width:100%;
+}
+
+.center-div-h {
+	margin-left: auto;
+	margin-right:auto;
+	left:0px;
+	right:0px;
+}
+
+.center-div-v {
+	margin-top: auto;
+	margin-bottom:auto;
+	top:0px;
+	bottom:0px;
+}
+
+* {
+	outline:0;
+}
+
+a {
+	color:#2b5797;
+}
+
+a:hover {
+	color:#000000;
+}
+
+a:hover, a:active, a:focus {
+    outline:0;
+}
+
+.tile {
+	float: none;
+}
+
+.tile-group {
+	float:none;
+}
+
+.placeholderPlace {
+	z-index: 5;
+	margin-top:-25px;
+	height:20px;
+}
+
+.placeholder {
+	left:10px;
+	color:#777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin:0px;
+	display: inline-block;
+	font-family: Segoe UI;
+}
+
+.select-disable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.bottomContent {
+	bottom:5px;
+	position:absolute;
+}
+
+table tbody tr td {
+	border:0px !important;
+	padding:0px;
+}
+
+/*
+*	Pockets
+*/
+
+.file-place {
+	position:relative;
+	padding-top:10px;
+	padding-left: 10px;
+	width:330px;
+	height:490px;
+	float:left;
+}
+
+.placeholder,
+#pocketHolder,
+.user-options,
+.option-divider,
+#spotlightTitle,
+#spotlightPlace,
+#pocketName,
+#uploadHolder,
+.icon-holder,
+.menu-title,
+#addFolderHolder,
+#recoverHolder,
+#optionTrigger,
+.file-name,
+#pocketIcon {
+	position:relative;
+}
+
+#nametagHolder,
+#leftPanel,
+#pocket,
+#imageHolder {
+	position:absolute;
+}
+
+#fileHolder {
+	margin:10px 0px 0px 10px;
+}
+
+#titleHolder {
+	position:relative;
+	width:220px;
+	height:70px;
+	top:30px;
+	left:100px;
+}
+
+#headHolder {
+	width:100%;
+	height:110px;
+}
+
+#userHolder {
+	position:absolute;
+	top:40px;
+	left:755px;
+	width:410px;
+	height:50px;
+}
+
+#myNotificationHolder {
+	width:50px;
+	height:120px;
+	position:absolute;
+	top:90px;
+	left:1090px;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	z-index: 500;
+	display: none;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+#nametagHolder {
+	width:320px;
+	top:15px;
+	text-align: right;
+}
+
+#imageHolder {
+	left:335px;
+	width:50px;
+	height:50px;
+}
+
+#optionTrigger {
+	left:385px;
+	height:100%;
+	width:30px;
+}
+
+.option-title {
+	position: relative;
+	width:100%;
+	padding:2px;
+	padding-left: 10px;
+	top:5px;
+}
+
+#userOptionHolder {
+	top:90px;
+	width:200px;
+	height:330px;
+	left:970px;
+	position:absolute;
+	display: none;
+}
+
+#userOptionDrop {
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+	border: 1px solid #BBBBBB;
+}
+
+#userPockets,
+#userSettings,
+#logoutHolder,
+#userSpace {
+	position:relative;
+}
+
+#userPockets {
+	top:5px;
+	border-bottom: 1px solid #777777;
+	width:100%;
+	height:120px;
+}
+
+#userSettings {
+	border-bottom: 1px solid #777777;
+	top:10px;
+	width:100%;
+	height:55px;
+}
+
+#logoutHolder {
+	top:15px;
+	border-bottom: 1px solid #777777;
+	width:100%;
+	height:30px;
+}
+
+#userSpace {
+	top:20px;
+}
+
+.user-space {
+	width:100%;
+	padding:2px;
+	padding-left: 10px;
+	top:5px;
+	margin-bottom: 5px;
+}
+
+.user-options {
+	width:100%;
+	padding:2px;
+	padding-left: 20px;
+	top:0px;
+}
+
+.user-options:hover {
+	background: #2d89ef;
+}
+
+.option-divider {
+	margin:20px 0px 0px 0px;
+	height: 1px;
+}
+
+#progressHolder {
+	padding: 5px 10px 2px 10px;
+}
+
+#spaceProgress {
+	background: #CCCCCC;
+}
+
+.arrow-down {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #777777;
+}
+
+.arrow-left {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #777777;
+}
+
+.arrow-right {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	margin:auto;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #777777;
+}
+
+#leftPanelHolder {
+	width:40px;
+	height:100%;
+	background: #FFFFFF;
+	border-right:1px solid #BBBBBB;
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index: 1000;
+}
+
+#userNotification {
+	position:absolute;
+	top:200px;
+	width:40px;
+	height:120px;
+}
+
+#userMenu {
+	position:absolute;
+	top:325px;
+	width:40px;
+	height:120px;
+}
+
+#separator {
+	position:absolute;
+	top:320px;
+	width:100%;
+	height:1px;
+	border-top: 1px dashed #FFFFFF;
+}
+
+.menu-helper {
+	position:absolute;
+	display:none;
+	left:40px;
+	top:8px;
+	padding:2.5px;
+}
+
+.menu-arrow {
+	position:absolute;
+	width: 0; 
+	height: 0; 
+	top:0px;
+	left:-20px;
+	bottom:0px;
+	margin:auto;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-right: 20px solid #2b5797;
+}
+
+.menu-title {
+	position:absolute;
+	left:20px;
+	top:0px;
+	padding:3px 5px 3px 5px;
+	background: #2b5797;
+}
+
+#messageHelper {
+	width:80px;
+}
+
+#memberHelper {
+	width:80px;
+}
+
+#activityHelper {
+	width:80px;
+}
+
+.notification{
+	width:40px;
+	height:40px;
+	position: relative;
+}
+
+.user-noti {
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:0px;
+	right:0px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	text-align: center;
+	display: none;
+}
+
+
+#aboutTitleHolder {
+	width:800px;
+	height:500px;
+	position: absolute;
+	top:100px;
+	left:100px;
+}
+
+#aboutTitle {
+
+	width:100%;
+	height:50px;
+	border-bottom: 1px solid #777777;
+}
+
+#firstGroup {
+	position: absolute;
+	top: 175px;
+	left: 100px;
+	width: 640px;
+	height: 470px;
+	background: #FFFFFF;
+}
+
+#creditfirstGroup {
+	position: absolute;
+	top: 175px;
+	left: 100px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#about {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+
+#mainPocketTile {
+	position: absolute;
+	top: 160px;
+	left: 0px;
+
+}
+
+#sidePocketTile {
+	position: absolute;
+	top: 320px;
+	left: 0px;
+
+}
+
+#topPocketTile {
+	position: absolute;
+	top: 320px;
+	left: 160px;
+
+}
+
+#bottomPocketTile {
+	position: absolute;
+	top: 320px;
+	left: 320px;
+
+}
+
+#extraPocketTile {
+	position: absolute;
+	top: 320px;
+	left: 480px;
+
+}
+
+/* end of Pockets */
+
+#secondGroup {
+	position: absolute;
+	top:175px;
+	left: 850px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#secondFooter {
+	position: absolute;
+	top:175px;
+	left: 850px;
+	width: 420px;
+	height: 470px;
+}
+
+#aboutHeader {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: #ffc40e;
+	padding-left: 5px;
+
+}
+
+#thirdGroup {
+	position: absolute;
+	top:175px;
+	left: 1550px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+
+}
+
+#mainHeader {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: #2d89f0;
+	padding-left: 5px;
+}
+
+#fourthGroup {
+	position: absolute;
+	top:175px;
+	left: 2250px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+
+}
+
+#sideHeader {
+	position: absolute;
+	
+	width: 100%;
+	height: 100px;
+	background: #b91c47;
+	padding-left: 5px;
+}
+
+
+#fifthGroup {
+	position: absolute;
+	top:175px;
+	left: 2950px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+
+}
+
+#topHeader {
+	position: absolute;
+	
+	width: 100%;
+	height: 100px;
+	background: #db532d;
+	padding-left: 5px;
+}
+
+#sixthGroup {
+	position: absolute;
+	top:175px;
+	left: 3650px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+
+}
+
+#bottomHeader {
+	position: absolute;
+	
+	width: 100%;
+	height: 100px;
+	background: #603cba;
+	padding-left: 5px;
+}
+
+#seventhGroup {
+	position: absolute;
+	top:175px;
+	left: 4350px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+
+}
+
+#extraHeader {
+	position: absolute;
+	
+	width: 100%;
+	height: 100px;
+	background: #7e3877;
+	padding-left: 5px;
+}
+
+#eightGroup {
+	position: absolute;
+	width: 470px;
+	height: 470px;
+	left: 5250px;
+	top: 175px;
+	background: #BBBBBB;
+}
+
+#eightFooter {
+	position: absolute;
+	width: 470px;
+	height: 470px;
+	left: 5100px;
+	top: 175px;
+}
+
+#contactnHolder {
+	position:absolute;
+	top:100px;
+	left:100px;
+	width:700px;
+	height:470px;
+}
+
+#contactTitle {
+	position:absolute;
+	width:100%;
+	top:0px;
+	left:0px;
+	border-bottom:1px solid #BBBBBB;
+	padding:5px;
+}
+
+#nidoContact {
+	position: absolute;
+	top: 175px;
+	left: 100px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+#nidoName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#nidoDetails {
+
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#nidoTile {
+
+	position: absolute;
+	top: 250px;
+	left: 10px;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+
+/**ron***/
+#ronContact {
+	position: absolute;
+	top: 175px;
+	left: 850px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+#ronName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#ronDetails {
+
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#ronTile {
+
+	position: absolute;
+	top: 250px;
+	left: 10px;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+/**ritz**/
+
+#ritzContact {
+	position: absolute;
+	top: 175px;
+	left: 1550px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+#ritzName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#ritzDetails {
+
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#ritzTile {
+
+	position: absolute;
+	top: 250px;
+	left: 10px;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+
+#csbody {
+	position: absolute;
+	top: 175px;
+	left: 100px;
+	width: 640px;
+	height: 470px;
+	
+}
+
+#emailblock {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#forgotblock {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	width: 100%;
+	height: 130px;
+	border-bottom: 1px solid #BBBBBB;
+
+}
+
+#emailtb {
+	position: absolute;
+	width: 50%;
+}
+
+#msgblock {
+	position: absolute;
+	top: 140px;
+	left: 10px;
+	width: 100%;
+}
+
+#msgforgot {
+	position: absolute;
+	top: 140px;
+	left: 10px;
+	width: 100%;
+	
+
+	
+}
+
+#msgta {
+	position: absolute;
+	width: 95%;
+	
+}
+
+#sendconcern {
+
+	position:absolute;
+	top: 470px;
+	left: 110px;
+}
+
+#sendforgot {
+	position:absolute;
+	top: 90px;
+	left: 340px;
+
+}
+
+
+
+#msgblock {
+	position: absolute;
+	top: 160px;
+	left: 10px;
+	width: 100%;
+	
+
+	
+}
+
+#msgta {
+	position: absolute;
+	width: 70%;
+	top: 25px;
+
+
+
+	
+}
+
+
+#claim {
+	position: absolute;
+	top: 400px;
+	left: 110px;
+
+}
+
+
+#kahon {
+
+	position: relative;
+	width:640px;
+	height:370px;
+	top: 100px;
+}
+
+/**alex***/
+#alexCredits {
+	position: absolute;
+	top: 175px;
+	left: 850px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#alexName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#alexDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/**freedom***/
+#freedomCredits {
+	position: absolute;
+	top: 175px;
+	left: 1550px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#freedomName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#freedomDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/**jb***/
+#jbCredits {
+	position: absolute;
+	top: 175px;
+	left: 2250px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#jbName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#jbDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/**metro***/
+#metroCredits {
+	position: absolute;
+	top: 175px;
+	left: 2950px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#metroName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#metroDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/**jQuery***/
+#jQueryCredits {
+	position: absolute;
+	top: 175px;
+	left: 3650px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#jQueryName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#jQueryDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/**plUpload***/
+#plUploadCredits {
+	position: absolute;
+	top: 175px;
+	left: 4350px;
+	width: 640px;
+	height: 470px;
+	background: #BBBBBB;
+}
+
+#plUploadName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}	
+	
+
+
+#plUploadDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#creditbackpackName {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	padding-left: 20px;
+	top: 30px;
+	background: #FFFFFF
+}
+
+#creditaboutDetails {
+
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background: #7e3877;
+	top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+#contactHolder {
+	position: absolute;
+	width:150px;
+	height:150px;
+	left:160px;
+	margin-top:-160px;
+
+}
+
+#ftraboutGroup {
+	position: absolute;
+	width: 470px;
+	height: 470px;
+	left: 5250px;
+	top: 175px;
+	
+}
+
+#ftrcontactGroup {
+	position: absolute;
+	width: 470px;
+	height: 470px;
+	left: 2250px;
+	top: 175px;
+	
+}
+

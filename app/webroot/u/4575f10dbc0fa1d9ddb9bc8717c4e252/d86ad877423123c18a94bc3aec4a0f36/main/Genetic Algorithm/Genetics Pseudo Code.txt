@@ -1,0 +1,292 @@
+
+/******Learning Genetics Psuedo Code*******/
+
+//Initial Population
+$files = files; //Array of files
+$classification = array();
+
+For each $files as $file{
+	$file_name = substr($file); //Get filename 
+	$file_type = substr($file); // Get file type
+	$file_name = replace("#[^A-Za-z0-9]#i", " ", $file_name); //Replace special charaters to spaces
+
+	$file_category = query("SELECT ..."); Get file category(Image, Document, Media, Data, etc...) based on file type
+	$words = explode(" ", $file) //Divide $file_name into array
+	//Fitness Function
+	For each $words as $word{
+		$is_not_credible = query("SELECT ..."); Checks is word is credible.
+		if($is_not_credible == 0)
+		{
+			$final_word_classification = '';
+			$word_classifications = query("SELECT ..."); //Checks all matches in database
+			//Selection
+			if($word_classifications > 0)
+			{
+				
+				$temp_words = array();
+				For each $word_classifications as $word_classification{
+					$wc = $word_classification['classification']; //Gets classification of a row
+					$all_file_in_classification = explode($classification['files']); //Put all file names from a class to an array
+
+					$count_match = 0;
+					For each $all_file_in_classification as $file_in_classification{
+						if(preg_match($word, $file_in_classification))
+						{
+							$count_match++;
+						}
+					}
+
+					$temp_word['classification'] = $wc;
+					$temp_word['match'] = $count_match;
+
+					array_push($temp_word, $temp_words);
+				}
+
+				$final_word_match = 0;
+				For each $temp_words as $temp_word{
+					if($temp_word > $final_word_match)
+					{
+						$final_word_classification = strtoupper($temp_word['classification']);
+						$final_word_match = $temp_word['match'];
+					}
+				}
+
+			}
+			else
+			{
+				$final_word_classification = $file_category;
+			}
+
+			if(!array_key_exist($file_category, $classification))
+			{
+				$classification[$file_category] = array();
+			}
+
+			if(!array_key_exist($final_word_classification, $classification[$file_category]))
+			{
+				$classification[$file_category][$final_word_classification] = array();
+			}
+
+			$file_exists = false;
+			For each $classification[$file_category][$final_word_classification] as $key => $words_in_classification{
+				if($words_in_classification == $file)
+				{
+					$file_exists = true;
+					break;
+				}
+			}
+
+			if($file_exists == false)
+			{
+				array_push($classification[$file_category][$final_word_classification], $file);
+			}
+
+		}
+		else
+		{
+			//Go to next word
+		}
+	}
+
+}
+
+//Crossover
+$to_unset = array();
+For each $classification as $classification_key => $classification_category{
+	For each $classification_category as $category_key =>$category_class{
+		For each $category_class as $class_key => $class_value{
+			For each $category_class as $compare_key => $compare_value{
+					$cancel = false;
+						if(array_key_exist($classification_category, $to_unset)){
+							if(array_key_exist($category_class, $to_unset[$classification_category])){
+								For each $to_unset[$classification_category][$category_class] as $to_unset_key => $to_unset_value
+								{
+									if($to_unset_value == $compare_value)
+									{
+										$cancel = true;
+										break;
+									}
+								}
+							}
+						}
+
+					if($cancel == true)
+					{
+						break;
+					}
+
+					if($class_value == $compare_value)
+					{
+						$class_to_unset= '';
+
+						if($classification[$classification_category][$class_key] >= $classification[$classification_category][$compare_key])
+						{
+							$class_to_unset = $compare_key;
+						}
+						else
+						{
+							$class_to_unset = $class_key;
+						}
+
+						if(!array_key_exist($classification_category, $to_unset))
+						{
+							$to_unset[$classification_category] = array();
+						}
+
+						if(!array_key_exist($class_to_unset, $classification[$classification_category]))
+						{
+							$to_unset[$classification_category][$class_to_unset] = array();
+						}
+
+						array_push($to_unset[$classification_category][$class_to_unset], $)
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Mutation Part
+
+$files = files; // Array of files
+$file_classification = foldername; //Gets the folder name given by the Backpack user
+
+For each $files as $file {
+	$file_name = substr($file); //Get filename 
+	$file_type = substr($file); // Get file type
+
+	$file_category = query("SELECT ..."); Get file category(Image, Document, Media, Data, etc...) based on file type
+	
+	$class_exist = query("SELECT ..."); Checks if classification already exists
+
+	if($class_exist > 0)
+	{
+		//Update row, add the filename of the file in the table field filename
+	}
+	else
+	{
+		//Add class with a filename $file_name and a category $file_category
+	}
+}
+
+
+
+
+/*******Decay rate**********/
+
+function decay($file_dir)
+{
+	$files = scandir($file_dir); //Scan all files in the directory
+	$all_files = array();
+
+	Foreach $files as $file{
+		if(is_dir($file_dir . '/' . $file)) // Checks if the file is a dir
+		{
+			$values = $this->decay($file_dir . '/' . $file);
+			foreach $values as $value
+			{
+				array_push($all_files, $value);
+			}
+		}
+		else
+		{
+			$file_details = query("SELECT ..."); //Get number of file downloads and shares.
+			$life_to_add  = ($file_details['downloads'] * 86400) + ($file_details['shares'] * 43200); //Downloads * 1 day in seconds, Shares * Half day in seconds
+			$tmp_file['file_life']    = time()-filemtime($file_dir . '/' . $file); //Current time minus file date created
+			$tmp_file['file_expiry']  = 2592000 + $life_to_add;
+			$file_life_in_days = floor($file_life / 86400);
+			$tmp_file['file_decay']   = $file_expiry;
+
+			for(var i=0;i<$file_life_in_days;i++)
+			{
+				$tmp_file['file_decay'] /= 2;
+			}
+
+			array_push($all_files, $tmp_file);
+
+		}
+	}
+
+	return $all_files;
+	//After retruning, the main function will get the pivot of the array and call the mergeSort function
+}
+
+function mergeSort($pivot, $files)
+{
+	//Sort files from lowest decay life to highest
+	$left   = array();
+	$right  = array();
+	$middle = array();
+	$sorted = array();
+	for($i=0;$i<count($files);$i++)
+	{
+		if($i != $pivot)
+		{
+			if($files[$i]['decay'] < $files[$pivot]['decay'])
+			{
+				array_push($left, $files[$i]);
+			}
+			else if($files[$i]['decay'] > $files[$pivot]['decay'])
+			{
+				array_push($right, $files[$i]);
+			}
+			else
+			{
+				array_push($middle, $files[$i]);
+			}
+		}
+	}
+
+	if(count($left)>1)
+	{
+		$l_pivot = floor(count($left) / 2);
+		$l_result = $this->sortFiles($l_pivot, $left);
+		foreach($l_result as $result)
+		{
+			array_push($sorted, $result);
+		}
+	}
+	else
+	{
+		foreach($left as $result)
+		{
+			array_push($sorted, $result);
+		}
+	}
+
+	array_push($sorted, $files[$pivot]);
+	foreach ($middle as $key => $file) {
+		array_push($sorted, $file);
+	}
+
+	if(count($right)>1)
+	{
+		$r_pivot = floor(count($right) / 2);
+		$r_result = $this->sortFiles($r_pivot, $right);
+		foreach($r_result as $result)
+		{
+			array_push($sorted, $result);
+		}
+	}
+	else
+	{
+		foreach($right as $result)
+		{
+			array_push($sorted, $result);
+		}
+	}
+
+	return $sorted;
+}

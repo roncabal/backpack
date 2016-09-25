@@ -1,0 +1,74 @@
+#pageWrapper{
+	background:url('../backpack_images/sillouette.png');
+	width:1200px;
+	height:800px;
+	margin:auto;
+	background-repeat:no-repeat;
+}
+
+#backpack_header{
+	background:url(../backpack_images/backpack_header.png);
+	background-repeat: no-repeat;
+	position:fixed;
+	width:287px;
+	height:136px;
+	top:0px;
+	left:0px;
+	z-index:5;
+}
+
+#backpack_header:hover{
+	background:url(../backpack_images/backpack_header_hover.png);
+	cursor:pointer;
+}
+
+#rightCloud{
+	background:url(../backpack_images/backpack_header2.png);
+	background-repeat:no-repeat;
+	position:fixed;
+	top:0px;
+	right:0px;
+	width:259px;
+	height:117px;
+}
+
+#pageFooter{
+	position:relative;
+	bottom:-100px;
+	width:1000px;
+	height:50px;
+}
+
+#linksFooter {
+	list-style-type: none;
+	background-image: url(navi_bg.png);
+	height: 80px;
+	width: 663px;
+	margin: auto;
+	margin-left:-50px;
+}
+		
+#linksFooter  li {
+	float: left;
+	
+}
+		
+#linksFooter a {
+	padding-right: 32px;
+	padding-left: 32px;
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	font-family: Calibri;
+	font-size: 21px;
+	color: #371C1C;
+	
+}
+
+#linksFooter a:hover {
+	color:#330066;
+}
+
+.onHover{
+	cursor:pointer;
+}

@@ -1,0 +1,152 @@
+#loginWrapper{
+	position:relative;
+	padding-top:100px;
+	width:1000px;
+	height:500px;
+}
+
+#backpackIconWrapper{
+	position:relative;
+	top:100px;
+	width:900px;
+	height:162px;
+	z-index:1;
+}
+
+#iconPlace{
+	width:162px;
+	height:162px;
+	position:relative;	
+}
+
+#loginFormWrapper{
+	position:relative;
+	top:100px;
+	width:700px;
+	height:401px;
+}
+
+#validationPlace{
+	position:relative;
+	background:url(../backpack_images/invalid_cloud.png);
+	background-repeat:no-repeat;
+	width:300px;
+	height:140px;
+	top:-200px;
+	left:-150px;
+}
+
+#loginPlace{
+	background:url(../backpack_images/name_tag.png);
+	position:relative;
+	top:-100px;
+	left:20px;
+	width:644px;
+	height:401px;
+}
+
+#loginForm{
+	width:390px;
+	height:200px;
+	position:relative;
+	top:100px;
+	left:130px;
+}
+
+#nameTag{
+	position:relative;
+	top:51px;
+	left:138px;
+	height:22px;
+	width:215px;
+	border:none;
+	font-family:Calibri;
+	font-size:18px;
+}
+
+#lockCode{
+	position:relative;
+	top:71px;
+	left:138px;
+	height:22px;
+	width:215px;
+	border:none;
+	font-family:Calibri;
+	font-size:18px;
+}
+
+#checkKeep{
+	position:relative;
+	top:95px;
+	left:30px;
+}
+
+#labelKeep{
+	position:relative;
+	top:93px;
+	left:30px;
+	font-family:Calibri;
+}
+
+#labelKeep:hover{
+	color:#330099;
+}
+
+#signUp{
+	position:relative;
+	background:url(../backpack_images/signup.png);
+	background-repeat:no-repeat;
+	border:none;
+	top:95px;
+	left:60px;
+	width:80px;
+	height:30px;
+}
+
+#signUp:hover{
+	background:url(../backpack_images/signup_hover.png);
+}
+
+#openBag{
+	position:relative;
+	background:url(../backpack_images/open_bag.png);
+	background-repeat:no-repeat;
+	border:none;
+	top:95px;
+	left:60px;
+	width:100px;
+	height:30px;
+}
+
+#openBag:hover{
+	background:url(../backpack_images/open_bag_hover.png);
+}
+
+#registerComplete{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:#000000;
+	left:0px;
+	top:0px;
+	z-index:2;
+}
+
+#backpackWrapper{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+#backpackPlace{
+	position:relative;
+	background:url(../backpack_images/success.png);
+	width:1200px;
+	height:900px;
+	z-index:3;
+}
+
+#backpackPlace:hover{
+	background:url(../backpack_images/success_hover.png);
+	z-index:3;
+}

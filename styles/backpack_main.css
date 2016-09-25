@@ -1,0 +1,382 @@
+#pageWrapper{
+	background:url('../backpack_images/bgmist.png');
+	width:1200px;
+	height:800px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#backpack_header{
+	background:url(../backpack_images/backpack_header.png);
+	background-repeat: no-repeat;
+	position:fixed;
+	width:287px;
+	height:136px;
+	top:0px;
+	left:0px;
+	z-index:2;
+}
+
+#backpack_header:hover{
+	background:url(../backpack_images/backpack_header_hover.png);
+	cursor:pointer;
+}
+
+#rightCloud{
+	background:url(../backpack_images/backpack_header2.png);
+	background-repeat:no-repeat;
+	position:fixed;
+	top:0px;
+	right:0px;
+	width:259px;
+	height:117px;
+	z-index:2;
+}
+
+#rightCloud{
+	
+}
+
+#bottomCloud{
+	position:fixed;
+	background:url('../backpack_images/bottom_cloud.png');
+	background-repeat:no-repeat;
+	bottom:0px;
+	left:0px;
+	width:261px;
+	height:111px;
+	z-index:2;
+}
+
+#bottomCloud:hover{
+	background:url('../backpack_images/bottom_cloud_hover.png');
+}
+
+#pageFooter{
+	position:fixed;
+	bottom:10px;
+	width:1000px;
+	height:50px;
+	left:60px;
+}
+
+#settingsBackground{
+	width:100%; 
+	height:100%; 
+	background-color:#000000; 
+	opacity:0.8; 
+	position:absolute; 
+	top:0px; 
+	left:0px;
+	z-index:2;
+}
+
+#setting{
+	background:url(../backpack_images/dropdown.png); 
+	position:fixed; 
+	width:181px; 
+	height:121px; 
+	bottom:50px; 
+	left:230px; 
+	z-index:2;
+}
+
+#backpackMenuWrapper{
+	position:fixed;
+	width:900px;
+	height:81px;
+	left:280px;
+}
+
+#footerLinks {
+	list-style-type: none;
+	background-image: url(navi_bg.png);
+	height: 80px;
+	width: 663px;
+	margin: auto;
+}
+		
+#footerLinks li {
+	float: left;
+	
+}
+		
+#footerLinks a {
+	padding-right: 32px;
+	padding-left: 32px;
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	font-family: Calibri;
+	font-size: 21px;
+	color: #371C1C;
+	
+}
+
+#footerLinks a:hover {
+	color:#330066;
+}
+
+#rightPanel{
+	position:fixed;
+	width:207px;
+	height:100%;
+	border-left:2px solid gray;
+	top:0px;
+	right:0px;
+	box-shadow: -5px -10px 5px #888888;
+	z-index:2;
+}
+
+#pageContent{
+	position:relative;
+	width:1200px;
+	height:630px;
+	top:90px;
+}
+
+#menu {
+    display: none;
+    position: fixed;
+	width:200px;
+    height: 100px;
+    background-color: #ddd;
+    border: 1px solid #000;
+	z-index:1;
+}
+
+/*menu images*/
+
+	#backpack_icon{
+	background-image:url(../backpack_images/user_icons/backpack_icon.png); 
+	width:81px;
+	height:81px;
+	}
+	
+	#backpack_icon:hover{
+	background-image:url(../backpack_images/user_icons/backpack_hover_icon.png); 
+	width:81px;
+	height:81px;
+	}
+	
+	#notebook_icon{
+	background-image:url(../backpack_images/user_icons/notebook_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#notebook_icon:hover{
+	background-image:url(../backpack_images/user_icons/notebook_hover_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#pack_icon{
+	background-image:url(../backpack_images/user_icons/pack_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#pack_icon:hover{
+	background-image:url(../backpack_images/user_icons/pack_hover_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#doc_icon{
+	background-image:url(../backpack_images/user_icons/doc_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#doc_icon:hover{
+	background-image:url(../backpack_images/user_icons/doc_hover_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#images_icon{
+	background-image:url(../backpack_images/user_icons/images_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#images_icon:hover{
+	background-image:url(../backpack_images/user_icons/images_hover_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#music_icon{
+	background-image:url(../backpack_images/user_icons/music_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#music_icon:hover{
+	background-image:url(../backpack_images/user_icons/music_hover_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#video_icon{
+	background-image:url(../backpack_images/user_icons/videos_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#video_icon:hover{
+	background-image:url(../backpack_images/user_icons/videos_hover_icon.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#main{
+	background-image:url(../backpack_images/pocket_icons/main.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#main:hover{
+	background-image:url(../backpack_images/pocket_icons/main_hover.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#side{
+	background-image:url(../backpack_images/pocket_icons/side.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#side:hover{
+	background-image:url(../backpack_images/pocket_icons/side_hover.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#bottom{
+	background-image:url(../backpack_images/pocket_icons/bottom.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#bottom:hover{
+	background-image:url(../backpack_images/pocket_icons/bottom_hover.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#top{
+	background-image:url(../backpack_images/pocket_icons/top.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#top:hover{
+	background-image:url(../backpack_images/pocket_icons/top_hover.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#extra{
+	background-image:url(../backpack_images/pocket_icons/extra.png);
+	width:81px;
+	height:81px;
+	}
+	
+	#extra:hover{
+	background-image:url(../backpack_images/pocket_icons/extra_hover.png);
+	width:81px;
+	height:81px;
+	}
+
+/*manu images end*/
+
+/*main menu*/
+#nav{
+	list-style:none;
+	font-weight:bold;
+	/* Clear floats */
+	width:100%;
+	position:relative;
+	z-index:1;
+	margin-top:0px;
+}
+
+#nav li{
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+
+#nav a{
+	padding:0px;
+	color:#fff;
+	text-decoration:none;
+}
+
+#nav a:hover{
+	color:#fff;
+	background:#330066;
+	text-decoration:underline;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+
+#nav ul li{
+	padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background:#330066;
+	text-decoration:underline;
+}
+
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background:#333;
+}
+/*main menu end*/
+
+.onHover{
+	cursor:pointer;
+}
+
+a.settings{
+	text-decoration:none;
+	color:#000000;
+	left:10px;
+	font-family:Calibri;
+	font-size:20px;
+	display:block;
+}
+
+a.settings:hover{
+	display:block;
+	background:#FFFFFF;
+	color:#330099;
+}
+
+.fileRow:hover{
+	cursor:pointer;
+}
